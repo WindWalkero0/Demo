@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\bin\Debug\YieldDemo.exe.config
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\bin\Debug\YieldDemo.exe
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\bin\Debug\YieldDemo.pdb
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\obj\Debug\YieldDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\obj\Debug\YieldDemo.exe
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\obj\Debug\YieldDemo.pdb
+C:\Users\czy\Desktop\Demo\GenericDemo\YieldDemo\obj\Debug\YieldDemo.csprojAssemblyReference.cache

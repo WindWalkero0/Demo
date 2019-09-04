@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\bin\Debug\IndexOfDemo.exe.config
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\bin\Debug\IndexOfDemo.exe
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\bin\Debug\IndexOfDemo.pdb
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\obj\Debug\IndexOfDemo.exe
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\obj\Debug\IndexOfDemo.pdb
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\obj\Debug\IndexOfDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\IndexOfDemo\IndexOfDemo\obj\Debug\IndexOfDemo.csproj.CoreCompileInputs.cache

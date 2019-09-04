@@ -1,0 +1,17 @@
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\CreateCode.exe.config
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\CreateCode.exe
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\CreateCode.pdb
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.Form1.resources
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.exe
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\obj\Debug\CreateCode.pdb
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\EntityFramework.dll
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\System.Data.SQLite.dll
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\EntityFramework.xml
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\czy\Desktop\Demo\CreateCode\CreateCode\bin\Debug\System.Data.SQLite.xml

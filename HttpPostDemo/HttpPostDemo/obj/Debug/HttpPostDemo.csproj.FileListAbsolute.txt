@@ -1,0 +1,6 @@
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\bin\Debug\HttpPostDemo.exe.config
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\bin\Debug\HttpPostDemo.exe
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\bin\Debug\HttpPostDemo.pdb
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\obj\Debug\HttpPostDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\obj\Debug\HttpPostDemo.exe
+C:\Users\czy\Desktop\Demo\HttpPostDemo\HttpPostDemo\obj\Debug\HttpPostDemo.pdb

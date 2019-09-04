@@ -1,0 +1,9 @@
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\bin\Debug\BufferTestDemo.exe.config
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\bin\Debug\BufferTestDemo.exe
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\bin\Debug\BufferTestDemo.pdb
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.exe
+C:\Users\czy\Desktop\Demo\BufferTestDemo\BufferTestDemo\obj\Debug\BufferTestDemo.pdb

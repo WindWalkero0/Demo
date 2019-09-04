@@ -1,0 +1,9 @@
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\bin\Debug\EncryptTool.exe.config
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\bin\Debug\EncryptTool.exe
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\bin\Debug\EncryptTool.pdb
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.Form1.resources
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.exe
+C:\Users\czy\Desktop\Demo\EncryptTool\EncryptTool\obj\Debug\EncryptTool.pdb

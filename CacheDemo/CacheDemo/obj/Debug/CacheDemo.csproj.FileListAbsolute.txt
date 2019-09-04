@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\bin\Debug\CacheDemo.exe.config
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\bin\Debug\CacheDemo.exe
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\bin\Debug\CacheDemo.pdb
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\obj\Debug\CacheDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\obj\Debug\CacheDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\obj\Debug\CacheDemo.exe
+C:\Users\czy\Desktop\Demo\CacheDemo\CacheDemo\obj\Debug\CacheDemo.pdb

@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\bin\Debug\GenericDemo.exe.config
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\bin\Debug\GenericDemo.exe
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\bin\Debug\GenericDemo.pdb
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\obj\Debug\GenericDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\obj\Debug\GenericDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\obj\Debug\GenericDemo.exe
+C:\Users\czy\Desktop\Demo\GenericDemo\GenericDemo\obj\Debug\GenericDemo.pdb

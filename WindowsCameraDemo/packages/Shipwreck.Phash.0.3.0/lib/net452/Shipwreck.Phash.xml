@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shipwreck.Phash</name>
+    </assembly>
+    <members>
+        <member name="T:Shipwreck.Phash.Digest">
+            <summary>
+            Digest info
+            </summary>
+        </member>
+        <member name="P:Shipwreck.Phash.Digest.Coefficents">
+            <summary>
+            the digest integer coefficient array
+            </summary>
+        </member>
+        <member name="T:Shipwreck.Phash.Features">
+            <summary>
+            feature vector info
+            </summary>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.CompareImages(Shipwreck.Phash.Imaging.IByteImage,Shipwreck.Phash.Imaging.IByteImage,System.Double@,System.Double,System.Double,System.Int32,System.Double)">
+            <summary>
+            compare 2 images
+            </summary>
+            <param name="imA">CImg object of first image</param>
+            <param name="imB">CImg object of second image</param>
+            <param name="pcc">double value for peak of cross correlation</param>
+            <param name="sigma">double value for the deviation of gaussian filter</param>
+            <param name="gamma">double value for gamma correction of images</param>
+            <param name="numberOfAngles">int number for the number of angles of radon projections</param>
+            <param name="threshold">double value for the threshold</param>
+            <returns>false for different images, 1 true for same image,</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.ComputeDigest(Shipwreck.Phash.Imaging.IByteImage,System.Double,System.Double,System.Int32)">
+            <summary>
+            Compute the image digest for an image given the input image
+            </summary>
+            <param name="image">CImg object representing an input image</param>
+            <param name="sigma">double value for the deviation for a gaussian filter function</param>
+            <param name="gamma">double value for gamma correction on the input image</param>
+            <param name="numberOfAngles">int value for the number of angles to consider.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.CreateDctMatrix(System.Int32)">
+            <summary>
+            return dct matrix, C Return DCT matrix of square size, <paramref name="size" />
+            </summary>
+            <param name="size">int denoting the size of the square matrix to create.</param>
+            <returns>size <paramref name="size" />x<paramref name="size" /> containing the dct matrix</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.ComputeDct(Shipwreck.Phash.Features)">
+            <summary>
+            Compute the dct of a given vector
+            </summary>
+            <param name="featureVector">vector of input series</param>
+            <returns>the dct of R</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.ComputeDctHash(Shipwreck.Phash.Imaging.IByteImage)">
+            <summary>
+            compute dct robust image hash
+            </summary>
+            <param name="image">An image to compute DCT hash.</param>
+            <returns>hash of type ulong</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.FindRadonProjections(Shipwreck.Phash.Imaging.FloatImage,System.Int32)">
+            <summary>
+            Find radon projections of N lines running through the image center for lines angled 0 to 180 degrees from horizontal.
+            </summary>
+            <param name="img">CImg src image</param>
+            <param name="numberOfLines">int number of angled lines to consider.</param>
+            <returns>Projections struct</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.ComputeFeatureVector(Shipwreck.Phash.Projections)">
+            <summary>
+            compute the feature vector from a radon projection map.
+            </summary>
+            <param name="projections">Projections struct</param>
+            <returns>Features struct</returns>
+        </member>
+        <member name="M:Shipwreck.Phash.ImagePhash.GetCrossCorrelation(Shipwreck.Phash.Digest,Shipwreck.Phash.Digest)">
+            <summary>
+            cross correlation for 2 series. Compute the cross correlation of two series vectors
+            </summary>
+            <param name="x">Digest struct</param>
+            <param name="y">Digest struct</param>
+            <returns>double value the peak of cross correlation</returns>
+        </member>
+        <member name="P:Shipwreck.Phash.Imaging.IVector3Image.Item(System.Int32,System.Int32)">
+            <summary>
+            Gets the RGB components of the specified pixel.
+            </summary>
+            <param name="x">The x position of the pixel.</param>
+            <param name="y">The y position of the pixel.</param>
+            <returns>The <see cref="T:System.Numerics.Vector3"/> that represents the RGB component value. Each component is supposed to be within [0, 255].</returns>
+        </member>
+        <member name="T:Shipwreck.Phash.Projections">
+            <summary>
+            Radon Projection info
+            </summary>
+        </member>
+        <member name="P:Shipwreck.Phash.Projections.Region">
+            <summary>
+            contains projections of image of angled lines through center
+            </summary>
+        </member>
+        <member name="P:Shipwreck.Phash.Projections.PixelsPerLine">
+            <summary>
+            int array denoting the number of pixels of each line
+            </summary>
+        </member>
+    </members>
+</doc>

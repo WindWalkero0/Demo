@@ -1,0 +1,6 @@
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\bin\Debug\CreateNumber.exe.config
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\bin\Debug\CreateNumber.exe
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\bin\Debug\CreateNumber.pdb
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\obj\Debug\CreateNumber.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\obj\Debug\CreateNumber.exe
+C:\Users\czy\Desktop\Demo\CreateNumber\CreateNumber\obj\Debug\CreateNumber.pdb

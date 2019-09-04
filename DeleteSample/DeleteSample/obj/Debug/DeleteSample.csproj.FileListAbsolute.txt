@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\bin\Debug\DeleteSample.exe.config
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\bin\Debug\DeleteSample.exe
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\bin\Debug\DeleteSample.pdb
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\obj\Debug\DeleteSample.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\obj\Debug\DeleteSample.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\obj\Debug\DeleteSample.exe
+C:\Users\czy\Desktop\Demo\DeleteSample\DeleteSample\obj\Debug\DeleteSample.pdb

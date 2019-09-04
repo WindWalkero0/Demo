@@ -1,0 +1,6 @@
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\bin\Debug\CaculatorDemo.exe.config
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\bin\Debug\CaculatorDemo.exe
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\bin\Debug\CaculatorDemo.pdb
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\obj\Debug\CaculatorDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\obj\Debug\CaculatorDemo.exe
+C:\Users\czy\Desktop\Demo\CaculatorDemo\CaculatorDemo\obj\Debug\CaculatorDemo.pdb

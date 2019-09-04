@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\bin\Debug\GetMACAddressByNetwork.exe.config
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\bin\Debug\GetMACAddressByNetwork.exe
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\bin\Debug\GetMACAddressByNetwork.pdb
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\obj\Debug\GetMACAddressByNetwork.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\obj\Debug\GetMACAddressByNetwork.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\obj\Debug\GetMACAddressByNetwork.exe
+C:\Users\czy\Desktop\Demo\GetMACAddressDemo\GetMACAddressByNetwork\obj\Debug\GetMACAddressByNetwork.pdb

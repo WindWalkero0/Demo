@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\bin\Debug\CorrdinateGraphDemo.exe.config
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\bin\Debug\CorrdinateGraphDemo.exe
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\bin\Debug\CorrdinateGraphDemo.pdb
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.csproj.GenerateResource.cache
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.exe
+C:\Users\czy\Desktop\Demo\CorrdinateGraphDemo\CorrdinateGraphDemo\obj\Debug\CorrdinateGraphDemo.pdb

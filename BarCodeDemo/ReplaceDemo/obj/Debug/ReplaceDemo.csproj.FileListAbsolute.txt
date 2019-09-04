@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\bin\Debug\ReplaceDemo.exe.config
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\bin\Debug\ReplaceDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\bin\Debug\ReplaceDemo.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\obj\Debug\ReplaceDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\obj\Debug\ReplaceDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\obj\Debug\ReplaceDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReplaceDemo\obj\Debug\ReplaceDemo.pdb

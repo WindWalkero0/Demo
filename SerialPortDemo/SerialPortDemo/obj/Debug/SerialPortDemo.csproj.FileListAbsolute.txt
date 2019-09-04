@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\bin\Debug\SerialPortDemo.exe.config
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\bin\Debug\SerialPortDemo.exe
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\bin\Debug\SerialPortDemo.pdb
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.exe
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.pdb
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\SerialPortDemo\SerialPortDemo\obj\Debug\SerialPortDemo.csprojAssemblyReference.cache

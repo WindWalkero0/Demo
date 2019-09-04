@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.exe.config
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.exe
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.pdb
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.csproj.GenerateResource.cache
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.exe
+C:\Users\czy\Desktop\Demo\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.pdb

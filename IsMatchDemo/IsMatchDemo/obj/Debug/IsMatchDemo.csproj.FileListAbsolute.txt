@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\bin\Debug\IsMatchDemo.exe.config
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\bin\Debug\IsMatchDemo.exe
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\bin\Debug\IsMatchDemo.pdb
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\obj\Debug\IsMatchDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\obj\Debug\IsMatchDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\obj\Debug\IsMatchDemo.exe
+C:\Users\czy\Desktop\Demo\IsMatchDemo\IsMatchDemo\obj\Debug\IsMatchDemo.pdb

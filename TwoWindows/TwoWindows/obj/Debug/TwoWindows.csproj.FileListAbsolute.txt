@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\bin\Debug\TwoWindows.exe.config
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\bin\Debug\TwoWindows.exe
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\bin\Debug\TwoWindows.pdb
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.FormMain.resources
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.Form_Transfer.resources
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.exe
+C:\Users\czy\Desktop\Demo\TwoWindows\TwoWindows\obj\Debug\TwoWindows.pdb

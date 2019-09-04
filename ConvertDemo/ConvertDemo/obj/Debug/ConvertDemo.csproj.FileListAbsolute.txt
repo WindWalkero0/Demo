@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\bin\Debug\ConvertDemo.exe.config
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\bin\Debug\ConvertDemo.exe
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\bin\Debug\ConvertDemo.pdb
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\obj\Debug\ConvertDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\obj\Debug\ConvertDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\obj\Debug\ConvertDemo.exe
+C:\Users\czy\Desktop\Demo\ConvertDemo\ConvertDemo\obj\Debug\ConvertDemo.pdb

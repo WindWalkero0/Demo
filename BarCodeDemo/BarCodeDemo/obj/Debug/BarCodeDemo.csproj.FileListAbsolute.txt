@@ -1,0 +1,15 @@
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\BarCodeDemo.exe.config
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\BarCodeDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\BarCodeDemo.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.dll
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.presentation.dll
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.xml
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.presentation.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\bin\Debug\zxing.presentation.xml
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BarCodeDemo\obj\Debug\BarCodeDemo.pdb

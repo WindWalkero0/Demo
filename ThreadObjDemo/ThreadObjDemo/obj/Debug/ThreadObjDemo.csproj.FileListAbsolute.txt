@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\bin\Debug\ThreadObjDemo.exe.config
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\bin\Debug\ThreadObjDemo.exe
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\bin\Debug\ThreadObjDemo.pdb
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\obj\Debug\ThreadObjDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\obj\Debug\ThreadObjDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\obj\Debug\ThreadObjDemo.exe
+C:\Users\czy\Desktop\Demo\ThreadObjDemo\ThreadObjDemo\obj\Debug\ThreadObjDemo.pdb

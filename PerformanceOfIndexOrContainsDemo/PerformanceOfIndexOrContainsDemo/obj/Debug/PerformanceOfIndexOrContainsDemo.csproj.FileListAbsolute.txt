@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\bin\Debug\PerformanceOfIndexOrContainsDemo.exe.config
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\bin\Debug\PerformanceOfIndexOrContainsDemo.exe
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\bin\Debug\PerformanceOfIndexOrContainsDemo.pdb
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\obj\Debug\PerformanceOfIndexOrContainsDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\obj\Debug\PerformanceOfIndexOrContainsDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\obj\Debug\PerformanceOfIndexOrContainsDemo.exe
+C:\Users\czy\Desktop\Demo\PerformanceOfIndexOrContainsDemo\PerformanceOfIndexOrContainsDemo\obj\Debug\PerformanceOfIndexOrContainsDemo.pdb

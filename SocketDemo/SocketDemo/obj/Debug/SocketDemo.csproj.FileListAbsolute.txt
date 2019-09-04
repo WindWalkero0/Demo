@@ -1,0 +1,9 @@
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\bin\Debug\SocketDemo.exe.config
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\bin\Debug\SocketDemo.exe
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\bin\Debug\SocketDemo.pdb
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.exe
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.pdb
+C:\Users\czy\Desktop\Demo\SocketDemo\SocketDemo\obj\Debug\SocketDemo.csproj.CoreCompileInputs.cache

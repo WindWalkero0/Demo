@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\bin\Debug\ReturnDemo.exe.config
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\bin\Debug\ReturnDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\bin\Debug\ReturnDemo.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\obj\Debug\ReturnDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\obj\Debug\ReturnDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\obj\Debug\ReturnDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\ReturnDemo\obj\Debug\ReturnDemo.pdb

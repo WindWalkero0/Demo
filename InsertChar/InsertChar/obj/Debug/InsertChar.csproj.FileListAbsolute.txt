@@ -1,0 +1,6 @@
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\bin\Debug\InsertChar.exe.config
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\bin\Debug\InsertChar.exe
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\bin\Debug\InsertChar.pdb
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\obj\Debug\InsertChar.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\obj\Debug\InsertChar.exe
+C:\Users\czy\Desktop\Demo\InsertChar\InsertChar\obj\Debug\InsertChar.pdb

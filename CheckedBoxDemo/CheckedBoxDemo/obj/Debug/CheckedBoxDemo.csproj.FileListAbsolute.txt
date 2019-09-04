@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\bin\Debug\CheckedBoxDemo.exe.config
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\bin\Debug\CheckedBoxDemo.exe
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\bin\Debug\CheckedBoxDemo.pdb
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.csproj.GenerateResource.cache
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.exe
+C:\Users\czy\Desktop\Demo\CheckedBoxDemo\CheckedBoxDemo\obj\Debug\CheckedBoxDemo.pdb

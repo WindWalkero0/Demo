@@ -1,0 +1,14 @@
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\bin\Release\netcoreapp2.1\QuickstartIdentityServer.deps.json
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\bin\Release\netcoreapp2.1\QuickstartIdentityServer.runtimeconfig.json
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\bin\Release\netcoreapp2.1\QuickstartIdentityServer.runtimeconfig.dev.json
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\bin\Release\netcoreapp2.1\QuickstartIdentityServer.dll
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\bin\Release\netcoreapp2.1\QuickstartIdentityServer.pdb
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.RazorAssemblyInfo.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.RazorAssemblyInfo.cs
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.AssemblyInfoInputs.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.AssemblyInfo.cs
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.RazorTargetAssemblyInfo.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.dll
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\QuickstartIdentityServer\obj\Release\netcoreapp2.1\QuickstartIdentityServer.pdb

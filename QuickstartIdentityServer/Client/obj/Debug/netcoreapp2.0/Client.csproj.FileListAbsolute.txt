@@ -1,0 +1,4 @@
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\Client\obj\Debug\netcoreapp2.0\Client.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+C:\Users\czy\Desktop\Demo\QuickstartIdentityServer\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs

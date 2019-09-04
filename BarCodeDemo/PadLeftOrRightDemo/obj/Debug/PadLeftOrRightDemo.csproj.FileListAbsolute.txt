@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.exe.config
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.pdb

@@ -1,0 +1,9 @@
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\bin\Debug\ToByteDemo.exe.config
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\bin\Debug\ToByteDemo.exe
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\bin\Debug\ToByteDemo.pdb
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.exe
+C:\Users\czy\Desktop\Demo\ToByteDemo\ToByteDemo\obj\Debug\ToByteDemo.pdb

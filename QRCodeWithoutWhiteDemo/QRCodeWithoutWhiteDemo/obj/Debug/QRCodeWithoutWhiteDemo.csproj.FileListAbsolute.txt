@@ -1,0 +1,16 @@
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\QRCodeWithoutWhiteDemo.exe.config
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\QRCodeWithoutWhiteDemo.exe
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\QRCodeWithoutWhiteDemo.pdb
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.dll
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.presentation.dll
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.pdb
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.xml
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.presentation.pdb
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\bin\Debug\zxing.presentation.xml
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.csprojResolveAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.csproj.GenerateResource.Cache
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.exe
+C:\Users\czy\Desktop\Demo\QRCodeWithoutWhiteDemo\QRCodeWithoutWhiteDemo\obj\Debug\QRCodeWithoutWhiteDemo.pdb

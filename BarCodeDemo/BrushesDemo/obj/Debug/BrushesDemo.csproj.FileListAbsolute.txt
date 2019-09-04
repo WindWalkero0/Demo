@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\bin\Debug\BrushesDemo.exe.config
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\bin\Debug\BrushesDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\bin\Debug\BrushesDemo.pdb
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.Form1.resources
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.csproj.GenerateResource.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.exe
+C:\Users\czy\Desktop\Demo\BarCodeDemo\BrushesDemo\obj\Debug\BrushesDemo.pdb

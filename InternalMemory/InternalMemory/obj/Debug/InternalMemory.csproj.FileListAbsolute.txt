@@ -1,0 +1,10 @@
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\bin\Debug\InternalMemory.exe.config
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\bin\Debug\InternalMemory.exe
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\bin\Debug\InternalMemory.pdb
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.Form1.resources
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.Properties.Resources.resources
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.csproj.GenerateResource.cache
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.exe
+C:\Users\czy\Desktop\Demo\InternalMemory\InternalMemory\obj\Debug\InternalMemory.pdb

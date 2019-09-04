@@ -1,0 +1,7 @@
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\bin\Debug\ConvertDateTimeDemo.exe.config
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\bin\Debug\ConvertDateTimeDemo.exe
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\bin\Debug\ConvertDateTimeDemo.pdb
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\obj\Debug\ConvertDateTimeDemo.csprojAssemblyReference.cache
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\obj\Debug\ConvertDateTimeDemo.csproj.CoreCompileInputs.cache
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\obj\Debug\ConvertDateTimeDemo.exe
+C:\Users\czy\Desktop\Demo\ConvertDateTimeDemo\ConvertDateTimeDemo\obj\Debug\ConvertDateTimeDemo.pdb

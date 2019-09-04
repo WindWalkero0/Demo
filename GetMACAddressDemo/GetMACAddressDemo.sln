@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMACAddressDemo", "GetMACAddressDemo\GetMACAddressDemo.csproj", "{E132A215-5B5B-4071-B0AB-4E393AF24227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMACAddressByNetwork", "GetMACAddressByNetwork\GetMACAddressByNetwork.csproj", "{B8CB5605-0474-4DFA-B95A-DD7C0170806A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E132A215-5B5B-4071-B0AB-4E393AF24227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E132A215-5B5B-4071-B0AB-4E393AF24227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E132A215-5B5B-4071-B0AB-4E393AF24227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E132A215-5B5B-4071-B0AB-4E393AF24227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CB5605-0474-4DFA-B95A-DD7C0170806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CB5605-0474-4DFA-B95A-DD7C0170806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CB5605-0474-4DFA-B95A-DD7C0170806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CB5605-0474-4DFA-B95A-DD7C0170806A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818C15DD-1B92-4A7F-81CC-6378CF460C0D}
+	EndGlobalSection
+EndGlobal
