@@ -1,0 +1,10 @@
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.exe.config
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.exe
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.pdb
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.Properties.Resources.resources
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.csproj.GenerateResource.cache
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.csproj.CoreCompileInputs.cache
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.exe
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.pdb
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.FrmSplashScreen.resources
+D:\VS2017Demo\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.MainForm.resources

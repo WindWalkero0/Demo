@@ -1,0 +1,7 @@
+D:\VS2015Demo\InternetOrNot\InternetOrNot\bin\Debug\InternetOrNot.exe.config
+D:\VS2015Demo\InternetOrNot\InternetOrNot\bin\Debug\InternetOrNot.exe
+D:\VS2015Demo\InternetOrNot\InternetOrNot\bin\Debug\InternetOrNot.pdb
+D:\VS2015Demo\InternetOrNot\InternetOrNot\obj\Debug\InternetOrNot.exe
+D:\VS2015Demo\InternetOrNot\InternetOrNot\obj\Debug\InternetOrNot.pdb
+D:\VS2015Demo\InternetOrNot\InternetOrNot\obj\Debug\InternetOrNot.csprojAssemblyReference.cache
+D:\VS2015Demo\InternetOrNot\InternetOrNot\obj\Debug\InternetOrNot.csproj.CoreCompileInputs.cache
