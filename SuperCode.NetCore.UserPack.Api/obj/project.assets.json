@@ -8673,7 +8673,7 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
@@ -8700,7 +8700,7 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
+      "sha512": "ARfgeRYF2AnYIcqEvy9VE0agN/3zexMMPtcegq1THpOMS63rIGMi706vCo6pbv9Xzw4qhdX1Gu1zyLZHj2WtLA==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
@@ -8741,7 +8741,7 @@
       ]
     },
     "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "b3pthNgxxFcD+Pc0WSEoC0+md3MyhRS6aCEeenvNE3Fdw1HyJ18ZhRFVJJzIeR/O/jpxPboB805Ho0T3Ul7w8A==",
+      "sha512": "zWLOQ77Y4FV/6Vw2g+FYzprbQX5/xKvjoCLe4L9159Aw1bSboQoJ1KRZFNdexDooWRAIsLSdE0ZokkrVkwN8Yw==",
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -8781,7 +8781,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+      "sha512": "/p8IQT2brFMDa7BHMH71LV+w5Tb3OxoLHxhn6+MGqN5xeqhM2HRHmj+7xQGJnaRn73d7ZTvp6yRCFMvolws4wA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -8807,7 +8807,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -8820,7 +8820,7 @@
       ]
     },
     "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "I8bKw2I8k58Wx7fMKQJn2R8lamboCAiHfHeV/pS65ScKWMMI0+wJkLYlEKvgW1D/XvSl/221clBoR2q9QNNM7A==",
+      "sha512": "YWzJvhiC+iLWI/IfpPQUIBhYnAHUFQFRDqR7VDNmPj0b3rjW7dArFqKysZ9v0iSBs9Ih4v9GasLpYCSUwADMQQ==",
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -8833,7 +8833,7 @@
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
+      "sha512": "1uVTITQP8/cI6YoO6FqfW1pzP0k2TnDZ3TFD88Bu/9H7ZuTsMY9xmadbGpwPu8w8swcd1ifZJsjD9hF9O6C/tg==",
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -8967,7 +8967,6 @@
       "path": "stackexchange.redis.strongname/1.2.6",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/StackExchange.Redis.StrongName.dll",
         "lib/net45/StackExchange.Redis.StrongName.xml",
         "lib/net46/StackExchange.Redis.StrongName.dll",
@@ -9219,7 +9218,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -9300,6 +9299,7 @@
       "path": "system.componentmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9442,7 +9442,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -9574,7 +9574,6 @@
       "path": "system.data.common/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10081,7 +10080,6 @@
       "path": "system.diagnostics.tracesource/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10730,7 +10728,6 @@
       "path": "system.io.memorymappedfiles/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10794,7 +10791,6 @@
       "path": "system.io.pipes/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.IO.Pipes.dll",
@@ -10824,7 +10820,6 @@
       "path": "system.io.unmanagedmemorystream/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11376,7 +11371,6 @@
       "path": "system.net.security/4.3.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12887,7 +12881,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -13542,7 +13536,6 @@
       "path": "system.threading.overlapped/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -13768,7 +13761,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "SrCOmTvvOOCmJT4BBxdZcwhz6XEMsjBGZvGSVorOxdCznaUNeVotEjDfXGIZ8gcGo00qgPbTV6puHDgcFYl6Iw==",
+      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -13812,6 +13805,7 @@
       "path": "system.threading.timer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -14055,7 +14049,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -14220,18 +14214,18 @@
     },
     "App.Standard.Core/1.0.0": {
       "type": "project",
-      "path": "../../appframework/App.StandardCore/App.Standard.Core.csproj",
-      "msbuildProject": "../../appframework/App.StandardCore/App.Standard.Core.csproj"
+      "path": "D:\\SuperCode3.0\\appframework\\App.StandardCore\\App.Standard.Core.csproj",
+      "msbuildProject": "D:\\SuperCode3.0\\appframework\\App.StandardCore\\App.Standard.Core.csproj"
     },
     "Panda.DynamicWebApi/0.0.5": {
       "type": "project",
-      "path": "../Core/Panda.DynamicWebApi/Panda.DynamicWebApi.csproj",
-      "msbuildProject": "../Core/Panda.DynamicWebApi/Panda.DynamicWebApi.csproj"
+      "path": "D:\\SuperCode3.0\\gongniu3.0\\Core\\Panda.DynamicWebApi\\Panda.DynamicWebApi.csproj",
+      "msbuildProject": "D:\\SuperCode3.0\\gongniu3.0\\Core\\Panda.DynamicWebApi\\Panda.DynamicWebApi.csproj"
     },
     "SuperCode.Core.Shared/1.0.0": {
       "type": "project",
-      "path": "../Core/SuperCode.Core.Shared/SuperCode.Core.Shared.csproj",
-      "msbuildProject": "../Core/SuperCode.Core.Shared/SuperCode.Core.Shared.csproj"
+      "path": "D:\\SuperCode3.0\\gongniu3.0\\Core\\SuperCode.Core.Shared\\SuperCode.Core.Shared.csproj",
+      "msbuildProject": "D:\\SuperCode3.0\\gongniu3.0\\Core\\SuperCode.Core.Shared\\SuperCode.Core.Shared.csproj"
     },
     "SuperCode.NetCore.Standard.Core/1.0.0": {
       "type": "project",
@@ -14248,23 +14242,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc1234568789\\.nuget\\packages\\": {},
+    "C:\\Users\\czy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\demo\\gongniu3.0\\SuperCode.NetCore.UserPack.Api\\SuperCode.NetCore.UserPack.Api.csproj",
+      "projectUniqueName": "E:\\常用DEMO\\Demo\\SuperCode.NetCore.UserPack.Api\\SuperCode.NetCore.UserPack.Api.csproj",
       "projectName": "SuperCode.NetCore.UserPack.Api",
-      "projectPath": "D:\\项目\\demo\\gongniu3.0\\SuperCode.NetCore.UserPack.Api\\SuperCode.NetCore.UserPack.Api.csproj",
-      "packagesPath": "C:\\Users\\pc1234568789\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\demo\\gongniu3.0\\SuperCode.NetCore.UserPack.Api\\obj\\",
+      "projectPath": "E:\\常用DEMO\\Demo\\SuperCode.NetCore.UserPack.Api\\SuperCode.NetCore.UserPack.Api.csproj",
+      "packagesPath": "C:\\Users\\czy\\.nuget\\packages\\",
+      "outputPath": "E:\\常用DEMO\\Demo\\SuperCode.NetCore.UserPack.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\pc1234568789\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\czy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14277,8 +14271,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\demo\\gongniu3.0\\SuperCode.NetCore.UserPack.Core\\SuperCode.Standard.UserPack.Core.csproj": {
-              "projectPath": "D:\\项目\\demo\\gongniu3.0\\SuperCode.NetCore.UserPack.Core\\SuperCode.Standard.UserPack.Core.csproj"
+            "E:\\常用DEMO\\Demo\\SuperCode.NetCore.UserPack.Core\\SuperCode.Standard.UserPack.Core.csproj": {
+              "projectPath": "E:\\常用DEMO\\Demo\\SuperCode.NetCore.UserPack.Core\\SuperCode.Standard.UserPack.Core.csproj"
             }
           }
         }

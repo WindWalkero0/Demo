@@ -14,3 +14,7 @@ D:\项目\demo\gongniu3.0\SuperCode.NetCore.UserPack.Core\bin\Debug\netcoreapp2.
 D:\项目\demo\gongniu3.0\SuperCode.NetCore.UserPack.Core\bin\Debug\netcoreapp2.2\Panda.DynamicWebApi.pdb
 D:\项目\demo\gongniu3.0\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.csproj.CopyComplete
 D:\项目\demo\gongniu3.0\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.csprojAssemblyReference.cache
+E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.csprojAssemblyReference.cache
+E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.csproj.CoreCompileInputs.cache
+E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.AssemblyInfoInputs.cache
+E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\obj\Debug\netcoreapp2.2\SuperCode.Standard.UserPack.Core.AssemblyInfo.cs

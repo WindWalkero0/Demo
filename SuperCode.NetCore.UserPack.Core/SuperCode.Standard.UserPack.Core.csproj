@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\SuperCode.Core.Shared\SuperCode.Core.Shared.csproj" />
+    <ProjectReference Include="D:\SuperCode3.0\gongniu3.0\Core\SuperCode.Core.Shared\SuperCode.Core.Shared.csproj" />
   </ItemGroup>
 
 </Project>

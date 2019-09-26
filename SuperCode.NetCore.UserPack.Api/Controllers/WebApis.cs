@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SuperCode.NetCore.UserPack.Api.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Web.Http;
@@ -11,7 +12,7 @@ namespace SuperCode.NetCore.Digital.Api.Controllers
     {
         public System.Boolean Add([FromBody]SuperCode.Standard.UserPack.Core.Dtos.AddProductDto addProductDto)
         {
-            var service = this.GetService
+            var service = this.GetService<SuperCode.Standa>
         }
     }
 }
