@@ -1,0 +1,149 @@
+﻿<#@ output extension=".cs"#>
+<#@ template language="C#" debug="true" hostspecific="true"#>
+<#@ assembly name="$(SolutionDir)T4\EnvDTE.dll" #>
+<#@ assembly name="$(SolutionDir)Core\SuperCode.Core.Shared\bin\Debug\netstandard2.0\SuperCode.Core.Shared.dll" #>
+<#@ assembly name="Microsoft.CSharp.dll" #>
+<#@ assembly name="System.Configuration.dll" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="System.Data.dll" #>
+<#@ assembly name="System.Xml.dll" #>
+<#@ assembly name="System.Xml.Linq.dll" #>
+<#@ import namespace="System"#>
+<#@ import namespace="System.Collections.Generic"#>
+<#@ import namespace="System.IO"#>
+<#@ import namespace="System.Linq"#>
+<#@ import namespace="System.Xml"#>
+<#@ import namespace="System.Xml.Linq" #>
+<#@ import namespace="System.Text"#>
+<#@ import namespace="System.Text.RegularExpressions"#>
+<#
+//WIN7下需要以管理员身份运行VS，否则可能会导致连接数据库失败
+//启用调试-下面两名必须同时启用
+//System.Diagnostics.Debugger.Launch(); 
+//System.Diagnostics.Debugger.Break(); 
+#>
+using Microsoft.AspNetCore.Mvc;
+using SuperCode.NetCore.Digital.Api.Extensions;
+using System;
+using System.Collections.Generic;
+using System.Web.Http;
+using SuperCode.Standard.Digital.Core.Dtos;
+
+namespace SuperCode.NetCore.Digital.Api.Controllers
+{
+<#
+var solutionPath = GetSolutionPath();
+string xmlfile = Path.Combine(solutionPath, @"Service\UserPack\SuperCode.Standard.UserPack.Core\bin\Debug\netstandard2.0\SuperCode.Standard.UserPack.Core.xml");
+string dllfile = Path.Combine(solutionPath, @"Service\UserPack\SuperCode.Standard.UserPack.Core\bin\Debug\netstandard2.0\SuperCode.Standard.UserPack.Core.dll");
+byte[] b = File.ReadAllBytes(dllfile);
+var assembly = Assembly.Load(b);
+
+var doc = XElement.Load(xmlfile);
+var queryInterface = from node in doc.Descendants("member") 
+                     where node.Attribute("name").Value.StartsWith("T:SuperCode")&&node.Attribute("name").Value.Contains(".IServices.")
+                     select node;
+
+var contentFiled = typeof(XElement).GetField("content", BindingFlags.Instance | BindingFlags.NonPublic);
+foreach (var typeNode in queryInterface)
+{
+    string interfaceName = typeNode.Attribute("name").Value.Substring(2);
+    var type = assembly.GetType(interfaceName);
+
+	var content = contentFiled.GetValue(typeNode).ToString().Split('\n');
+    for (int i = 0; i < content.Length; i++)
+    {
+		if(content[i].Trim()==string.Empty) continue;
+#>
+	<#=$"/// {content[i].Trim()}" #>
+<#
+    }	
+#>
+    [Route("api/Digital/[controller]/[action]")]
+    [ApiController]
+    public partial class <#=Regex.Match(type.Name,"(?<=I).+(?=Service)").Value#>Controller : ControllerBase
+    {
+<#
+    var queryMethod = from node in doc.Descendants("member")
+                      where node.Attribute("name").Value.StartsWith($"M:{interfaceName}")
+                      select node;
+
+    foreach (var methodNode in queryMethod)
+    {
+        string nameAttr = methodNode.Attribute("name").Value;
+        string methodName = Regex.Match(nameAttr, $"(?<={type}\\.)[^`(]+").Value;
+        var method = type.GetMethod(methodName);
+		// 方法摘要信息
+		content = methodNode.ToString().Split('\n');
+		for (int i = 1; i < content.Length-1; i++)
+		{
+#>
+		<#=$"/// {content[i].Trim()}" #>
+<#
+		}
+		var paramNodes = (from node in methodNode.Descendants("param") select node).ToList();
+
+        var parameters = method.GetParameters();
+        var paramStr1 = new StringBuilder();
+        var paramStr2 = new StringBuilder();
+		var httpType="HttpGet";
+        for (int i = 0; i < parameters.Length; i++)
+        {
+			if( i>0 ) {
+				paramStr1.Append(", ");
+				paramStr2.Append(", ");
+			}
+            paramStr1.Append("[FromBody]"); 
+            httpType="HttpPost";
+            paramStr1.Append($"{parameters[i].ParameterType.ToString().Replace("`1[","<").Replace("]",">")} {parameters[i].Name}");
+            paramStr2.Append(paramNodes[i].Attribute("name").Value);
+        }
+        string returnStr =string.Empty; //method.ReturnType == typeof(void) ? "void" : method.ReturnType.ToString().Replace("`1[","<").Replace("]",">");
+		if(method.ReturnType == typeof(void))
+		{
+			returnStr="void";
+		}
+		else
+		{
+			if(method.ReturnType.ToString().Contains("System.Threading.Tasks.Task"))
+			{
+				returnStr="async "+ method.ReturnType.ToString().Replace("`1[","<").Replace("]",">");
+			}
+			else
+			{
+				returnStr= method.ReturnType.ToString().Replace("`1[","<").Replace("]",">");
+			}
+		}
+#>		[<#=httpType#>]
+		public <#=returnStr#> <#=method.Name#>(<#=paramStr1#>)
+		{
+            var service = this.GetService<<#=type.FullName#>>();
+			<#
+			if(method.ReturnType == typeof(void))
+			{
+			}
+			else
+			{
+				if(method.ReturnType.ToString().Contains("System.Threading.Tasks.Task"))
+				{
+				#>
+<#="return await "#>service.<#=method.Name#>(<#=paramStr2#>);
+			    <#
+				}
+				else
+				{
+				#>
+<#="return "#>service.<#=method.Name#>(<#=paramStr2#>);
+				<#
+				}
+			}
+			#>
+}
+<#
+    }
+#>
+}
+<#
+}
+#>
+}
+<#@ include file="$(SolutionDir)T4\GeneratorHelper.ttinclude" #>

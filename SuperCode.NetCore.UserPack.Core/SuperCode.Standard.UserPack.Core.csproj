@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>SuperCode.Standard.UserPack.Core</RootNamespace>
+    <AssemblyName>SuperCode.NetCore.Standard.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PetaPoco" Version="5.1.306" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\SuperCode.Core.Shared\SuperCode.Core.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
