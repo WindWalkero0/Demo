@@ -6,6 +6,10 @@
     <AssemblyName>SuperCode.NetCore.Standard.Core</AssemblyName>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\SuperCode.NetCore.Standard.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="PetaPoco" Version="5.1.306" />
   </ItemGroup>

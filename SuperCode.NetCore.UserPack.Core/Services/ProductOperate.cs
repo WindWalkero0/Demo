@@ -27,7 +27,5 @@ namespace SuperCode.Standard.UserPack.Core.Services
                 }
             }
         }
-
-        public 
     }
 }

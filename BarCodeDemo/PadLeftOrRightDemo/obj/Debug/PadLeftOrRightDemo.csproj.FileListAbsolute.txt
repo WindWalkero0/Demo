@@ -5,3 +5,10 @@ C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRigh
 C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.csproj.CoreCompileInputs.cache
 C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.exe
 C:\Users\czy\Desktop\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.pdb
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.exe.config
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.exe
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\bin\Debug\PadLeftOrRightDemo.pdb
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.csprojAssemblyReference.cache
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.csproj.CoreCompileInputs.cache
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.exe
+E:\常用DEMO\Demo\BarCodeDemo\PadLeftOrRightDemo\obj\Debug\PadLeftOrRightDemo.pdb

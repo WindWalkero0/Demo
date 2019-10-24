@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Panda.DynamicWebApi;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace SuperCode.NetCore.UserPack.Api
 {
@@ -26,6 +28,18 @@ namespace SuperCode.NetCore.UserPack.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDynamicWebApi();
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Info { Title = "UsePack API", Version = "v1" });
+
+                options.DocInclusionPredicate((docName, description) => true);
+
+                options.IncludeXmlComments(@"E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Api\SuperCode.NetCore.UserPack.Api.xml");
+                options.IncludeXmlComments(@"E:\常用DEMO\Demo\SuperCode.NetCore.UserPack.Core\SuperCode.NetCore.Standard.Core.xml");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +54,12 @@ namespace SuperCode.NetCore.UserPack.Api
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "UsePack API");
+            });
 
             app.UseHttpsRedirection();
             app.UseMvc();

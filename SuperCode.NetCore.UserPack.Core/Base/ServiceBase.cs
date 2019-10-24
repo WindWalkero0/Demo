@@ -39,7 +39,7 @@ namespace SuperCode.Standard.UserPack.Core.Base
   `WarehouseName` varchar(50) DEFAULT NULL COMMENT '库房名称',
   `CreationTime` TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`ID`),
-  KEY `ProductBatch` (`ProductBatch`) USING BTREE,
+  UNIQUE KEY `ProductBatch` (`ProductBatch`) USING BTREE,
   KEY `CreationTime` (`CreationTime`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;");
         }

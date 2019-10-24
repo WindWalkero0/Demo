@@ -12,7 +12,8 @@ namespace SuperCode.NetCore.Digital.Api.Controllers
     {
         public System.Boolean Add([FromBody]SuperCode.Standard.UserPack.Core.Dtos.AddProductDto addProductDto)
         {
-            var service = this.GetService<SuperCode.Standa>
+            var service = this.GetService<SuperCode.Standard.UserPack.Core.IServices.IProductOperate>();
+            return
         }
     }
 }
