@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="Device01_EndFlag" value="$2$" />
+    <add key="Device01_BeginFlag" value="$1$" />
+    <add key="Device01_Baud" value="115200" />
+    <add key="Device01_COM" value="COM1" />
+    <add key="Device02_EndFlag" value="$2$" />
+    <add key="Device02_BeginFlag" value="$1$" />
+    <add key="Device02_Baud" value="115200" />
+    <add key="Device02_COM" value="COM9" />
+    <add key="PLC_Baud" value="115200" />
+    <add key="PLC_COM" value="COM5" />
+    <add key="PLC_Enabled" value="true" />
+    <add key="OrderOK" value="222" />
+    <add key="OrderNG" value="124" />
+    <add key="TimeOut" value="5000" />
+  </appSettings>
+</configuration>

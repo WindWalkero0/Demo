@@ -1,0 +1,10 @@
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.Properties.Resources.resources
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.csproj.GenerateResource.cache
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.csproj.CoreCompileInputs.cache
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\bin\Debug\SerialPortTest.exe.config
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\bin\Debug\SerialPortTest.exe
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\bin\Debug\SerialPortTest.pdb
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.exe
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.pdb
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.FrmMain.resources
+E:\常用DEMO\Demo\SerialPortTest\SerialPortTest\obj\Debug\SerialPortTest.FrmPLCOrder.resources
