@@ -33,7 +33,6 @@
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.panelSelectButton = new DevExpress.XtraEditors.PanelControl();
             this.Btn_Setting = new DevExpress.XtraEditors.SimpleButton();
-            this.Btn_Package = new DevExpress.XtraEditors.SimpleButton();
             this.Btn_Segmentation = new DevExpress.XtraEditors.SimpleButton();
             this.Btn_Slaughter = new DevExpress.XtraEditors.SimpleButton();
             this.Btn_Index = new DevExpress.XtraEditors.SimpleButton();
@@ -72,6 +71,7 @@
             this.pictureEdit1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureEdit1.Location = new System.Drawing.Point(2, 2);
             this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Size = new System.Drawing.Size(187, 96);
             this.pictureEdit1.TabIndex = 0;
@@ -81,7 +81,6 @@
             this.panelSelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelSelectButton.Controls.Add(this.Btn_Setting);
-            this.panelSelectButton.Controls.Add(this.Btn_Package);
             this.panelSelectButton.Controls.Add(this.Btn_Segmentation);
             this.panelSelectButton.Controls.Add(this.Btn_Slaughter);
             this.panelSelectButton.Controls.Add(this.Btn_Index);
@@ -92,33 +91,28 @@
             // 
             // Btn_Setting
             // 
+            this.Btn_Setting.AllowFocus = false;
             this.Btn_Setting.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Setting.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Setting.Appearance.Options.UseFont = true;
-            this.Btn_Setting.Location = new System.Drawing.Point(950, 24);
+            this.Btn_Setting.Location = new System.Drawing.Point(850, 24);
+            this.Btn_Setting.LookAndFeel.SkinName = "Office 2010 Blue";
+            this.Btn_Setting.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Setting.Name = "Btn_Setting";
             this.Btn_Setting.Size = new System.Drawing.Size(115, 35);
             this.Btn_Setting.TabIndex = 4;
             this.Btn_Setting.Text = "设置";
             this.Btn_Setting.Click += new System.EventHandler(this.Btn_Setting_Click);
             // 
-            // Btn_Package
-            // 
-            this.Btn_Package.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_Package.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Package.Appearance.Options.UseFont = true;
-            this.Btn_Package.Location = new System.Drawing.Point(727, 24);
-            this.Btn_Package.Name = "Btn_Package";
-            this.Btn_Package.Size = new System.Drawing.Size(115, 35);
-            this.Btn_Package.TabIndex = 3;
-            this.Btn_Package.Text = "包装";
-            // 
             // Btn_Segmentation
             // 
+            this.Btn_Segmentation.AllowFocus = false;
             this.Btn_Segmentation.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Segmentation.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Segmentation.Appearance.Options.UseFont = true;
-            this.Btn_Segmentation.Location = new System.Drawing.Point(504, 24);
+            this.Btn_Segmentation.Location = new System.Drawing.Point(619, 24);
+            this.Btn_Segmentation.LookAndFeel.SkinName = "Office 2010 Blue";
+            this.Btn_Segmentation.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Segmentation.Name = "Btn_Segmentation";
             this.Btn_Segmentation.Size = new System.Drawing.Size(115, 35);
             this.Btn_Segmentation.TabIndex = 2;
@@ -127,10 +121,13 @@
             // 
             // Btn_Slaughter
             // 
+            this.Btn_Slaughter.AllowFocus = false;
             this.Btn_Slaughter.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Slaughter.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Slaughter.Appearance.Options.UseFont = true;
-            this.Btn_Slaughter.Location = new System.Drawing.Point(281, 24);
+            this.Btn_Slaughter.Location = new System.Drawing.Point(388, 24);
+            this.Btn_Slaughter.LookAndFeel.SkinName = "Office 2010 Blue";
+            this.Btn_Slaughter.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Slaughter.Name = "Btn_Slaughter";
             this.Btn_Slaughter.Size = new System.Drawing.Size(115, 35);
             this.Btn_Slaughter.TabIndex = 1;
@@ -139,10 +136,33 @@
             // 
             // Btn_Index
             // 
+            this.Btn_Index.AllowFocus = false;
             this.Btn_Index.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Index.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.Btn_Index.Appearance.BackColor2 = System.Drawing.Color.White;
             this.Btn_Index.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Index.Appearance.Options.UseFont = true;
-            this.Btn_Index.Location = new System.Drawing.Point(58, 24);
+            this.Btn_Index.Appearance.Options.UseBackColor = true;
+            this.Btn_Index.AppearanceDisabled.BackColor = System.Drawing.Color.Red;
+            this.Btn_Index.AppearanceDisabled.BackColor2 = System.Drawing.Color.Red;
+            this.Btn_Index.AppearanceDisabled.Options.UseBackColor = true;
+            this.Btn_Index.AppearanceDisabled.Options.UseBorderColor = true;
+            this.Btn_Index.AppearanceDisabled.Options.UseFont = true;
+            this.Btn_Index.AppearanceDisabled.Options.UseForeColor = true;
+            this.Btn_Index.AppearanceHovered.BackColor = System.Drawing.Color.White;
+            this.Btn_Index.AppearanceHovered.BackColor2 = System.Drawing.Color.White;
+            this.Btn_Index.AppearanceHovered.Options.UseBackColor = true;
+            this.Btn_Index.AppearanceHovered.Options.UseBorderColor = true;
+            this.Btn_Index.AppearanceHovered.Options.UseFont = true;
+            this.Btn_Index.AppearanceHovered.Options.UseForeColor = true;
+            this.Btn_Index.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Btn_Index.AppearancePressed.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Btn_Index.AppearancePressed.Options.UseBackColor = true;
+            this.Btn_Index.AppearancePressed.Options.UseBorderColor = true;
+            this.Btn_Index.AppearancePressed.Options.UseFont = true;
+            this.Btn_Index.AppearancePressed.Options.UseForeColor = true;
+            this.Btn_Index.Location = new System.Drawing.Point(157, 24);
+            this.Btn_Index.LookAndFeel.SkinName = "Office 2010 Blue";
+            this.Btn_Index.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Index.Name = "Btn_Index";
             this.Btn_Index.Size = new System.Drawing.Size(115, 35);
             this.Btn_Index.TabIndex = 0;
@@ -158,19 +178,20 @@
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1134, 405);
             this.MainPanel.TabIndex = 5;
+            this.MainPanel.SizeChanged += new System.EventHandler(this.MainPanel_SizeChanged);
             // 
             // MainUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1136, 587);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.panelSelectButton);
             this.Controls.Add(this.panelTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "山东省健康肉风控及溯源一体化平台";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelTitle)).EndInit();
             this.panelTitle.ResumeLayout(false);
@@ -190,7 +211,6 @@
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private DevExpress.XtraEditors.PanelControl panelSelectButton;
         private DevExpress.XtraEditors.SimpleButton Btn_Setting;
-        private DevExpress.XtraEditors.SimpleButton Btn_Package;
         private DevExpress.XtraEditors.SimpleButton Btn_Segmentation;
         private DevExpress.XtraEditors.SimpleButton Btn_Slaughter;
         private DevExpress.XtraEditors.SimpleButton Btn_Index;

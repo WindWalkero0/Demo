@@ -42,6 +42,9 @@
     <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -62,7 +65,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\BaseScan.cs" />
+    <Compile Include="Common\GetDevicesInfo.cs" />
+    <Compile Include="Common\InterfaceServices.cs" />
+    <Compile Include="Common\JGWEnum.cs" />
+    <Compile Include="Common\JGWThread.cs" />
+    <Compile Include="Common\LaserServer.cs" />
+    <Compile Include="Common\Log.cs" />
+    <Compile Include="Common\Message.cs" />
     <Compile Include="Common\Tools.cs" />
+    <Compile Include="Entities\SlaughterEntity.cs" />
     <Compile Include="UI\FormIndex.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,7 @@
     <EmbeddedResource Include="UI\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -22,5 +22,10 @@ namespace ShanDongPig.UI
         {
 
         }
+
+        private void Btn_Start_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

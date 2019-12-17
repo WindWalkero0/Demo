@@ -7,6 +7,7 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using DevExpress.XtraEditors;
+using ShanDongPig.Common;
 
 namespace ShanDongPig.UI
 {
@@ -29,16 +30,13 @@ namespace ShanDongPig.UI
         /// </summary>
         private void ShowUI()
         {
-            Point location = MainPanel.Location;
             Size size = MainPanel.Size;
+            Point location = new Point(0, 0);
 
             mFormIndex = new FormIndex();
             mFormSlaughter = new FormSlaughter();
             mFormSegmentation = new FormSegmentation();
             mFormSetting = new FormSetting();
-
-            mFormSlaughter.Size = size;
-            mFormSlaughter.Location = location;
 
             formList.Add(mFormIndex);
             formList.Add(mFormSlaughter);
@@ -47,6 +45,8 @@ namespace ShanDongPig.UI
 
             foreach (XtraForm form in formList)
             {
+                form.Size = size;
+                form.Location = location;
                 form.TopLevel = false;
                 MainPanel.Controls.Add(form);
             }
@@ -92,6 +92,17 @@ namespace ShanDongPig.UI
         private void Btn_Setting_Click(object sender, EventArgs e)
         {
             ShowPanel(mFormSetting);
+        }
+
+        private void MainPanel_SizeChanged(object sender, EventArgs e)
+        {
+            Size size = MainPanel.Size;
+            Point location = new Point(0, 0);
+            foreach(XtraForm form in formList)
+            {
+                form.Size = size;
+                form.Location = location;
+            }
         }
     }
 }

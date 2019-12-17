@@ -39,40 +39,43 @@
             // 
             // Btn_Login
             // 
+            this.Btn_Login.AllowFocus = false;
             this.Btn_Login.Appearance.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Btn_Login.Appearance.Options.UseFont = true;
-            this.Btn_Login.Location = new System.Drawing.Point(30, 137);
+            this.Btn_Login.Location = new System.Drawing.Point(26, 117);
+            this.Btn_Login.LookAndFeel.SkinName = "Office 2010 Blue";
+            this.Btn_Login.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Login.Name = "Btn_Login";
-            this.Btn_Login.Size = new System.Drawing.Size(298, 55);
+            this.Btn_Login.Size = new System.Drawing.Size(255, 47);
             this.Btn_Login.TabIndex = 12;
             this.Btn_Login.Text = "登录";
             this.Btn_Login.Click += new System.EventHandler(this.Btn_Login_Click);
             // 
             // txtBox_Pwd
             // 
-            this.txtBox_Pwd.Location = new System.Drawing.Point(89, 77);
+            this.txtBox_Pwd.Location = new System.Drawing.Point(76, 66);
             this.txtBox_Pwd.Name = "txtBox_Pwd";
             this.txtBox_Pwd.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
             this.txtBox_Pwd.Properties.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_Pwd.Properties.Appearance.Options.UseFont = true;
             this.txtBox_Pwd.Properties.PasswordChar = '●';
-            this.txtBox_Pwd.Size = new System.Drawing.Size(239, 22);
+            this.txtBox_Pwd.Size = new System.Drawing.Size(205, 22);
             this.txtBox_Pwd.TabIndex = 11;
             // 
             // txtBox_User
             // 
-            this.txtBox_User.Location = new System.Drawing.Point(89, 27);
+            this.txtBox_User.Location = new System.Drawing.Point(76, 23);
             this.txtBox_User.Name = "txtBox_User";
             this.txtBox_User.Properties.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBox_User.Properties.Appearance.Options.UseFont = true;
-            this.txtBox_User.Size = new System.Drawing.Size(239, 22);
+            this.txtBox_User.Size = new System.Drawing.Size(205, 22);
             this.txtBox_User.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(27, 80);
+            this.label2.Location = new System.Drawing.Point(23, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 9;
@@ -82,7 +85,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(27, 30);
+            this.label1.Location = new System.Drawing.Point(23, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 8;
@@ -90,15 +93,16 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 230);
+            this.ClientSize = new System.Drawing.Size(310, 197);
             this.Controls.Add(this.Btn_Login);
             this.Controls.Add(this.txtBox_Pwd);
             this.Controls.Add(this.txtBox_User);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录";

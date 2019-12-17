@@ -107,3 +107,5 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\ja\DevExpress.XtraGrid.v18.
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zh-Hans\DevExpress.XtraGrid.v18.1.resources.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.csprojAssemblyReference.cache
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.xml

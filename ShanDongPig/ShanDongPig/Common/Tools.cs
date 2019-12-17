@@ -73,12 +73,14 @@ namespace ShanDongPig.Common
         #endregion
 
         #region 选中某个按钮就显示当前按钮
-        public static void DisplayButton(Button buttonClick , List<Button> listButton)
+        public static void DisplayButton(SimpleButton buttonClick , List<SimpleButton> listButton)
         {
-            foreach (Button button in listButton)
+            foreach (SimpleButton button in listButton)
             {
                 if (button.Handle == buttonClick.Handle)
                 {
+                    button.Appearance.BackColor = Color.Red;
+                    button.Appearance.BackColor2 = Color.Red;
                     button.BackColor = System.Drawing.Color.FromArgb(168, 255, 168);
                 }
                 else
