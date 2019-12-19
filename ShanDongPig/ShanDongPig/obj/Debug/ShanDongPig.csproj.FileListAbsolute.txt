@@ -109,3 +109,12 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zh-Hans\DevExpress.XtraGrid
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.csprojAssemblyReference.cache
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.SqlServer.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.EF6.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.Linq.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.SqlServer.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.dll.config

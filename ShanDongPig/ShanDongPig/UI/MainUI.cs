@@ -23,6 +23,10 @@ namespace ShanDongPig.UI
         public MainUI()
         {
             InitializeComponent();
+
+            BatchDB.CreateDB();
+
+            CommonHelp.InitDBTable();
         }
 
         /// <summary>

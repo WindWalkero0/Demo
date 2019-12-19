@@ -78,6 +78,7 @@
             this.Btn_RepairPrint.Size = new System.Drawing.Size(102, 39);
             this.Btn_RepairPrint.TabIndex = 1;
             this.Btn_RepairPrint.Text = "补打印";
+            this.Btn_RepairPrint.Click += new System.EventHandler(this.Btn_RepairPrint_Click);
             // 
             // GridControl_Slaughter
             // 
@@ -219,7 +220,6 @@
             this.Controls.Add(this.GridControl_Slaughter);
             this.Controls.Add(this.Btn_RepairPrint);
             this.Controls.Add(this.panelControl1);
-            this.Font = new System.Drawing.Font("宋体", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSegmentation";
             this.Text = "FormSegmentation";

@@ -100,10 +100,10 @@ namespace ShanDongPig.Common
         /// <param name="strPath"></param>
         public static void SetRegKey(string strName, object value, string strPath = "Software\\JGWClient")
         {
-            RegistryKey key = Registry.LocalMachine.OpenSubKey(strPath, true);
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(strPath, true);
             if (null == key)
             {
-                key = Registry.LocalMachine.CreateSubKey(strPath);
+                key = Registry.CurrentUser.CreateSubKey(strPath);
             }
             key.SetValue(strName, value);
             key.Close();
@@ -112,7 +112,7 @@ namespace ShanDongPig.Common
         public static object GetRegKey(string strName, string strPath = "Software\\JGWClient")
         {
             object obValue = "";
-            RegistryKey key = Registry.LocalMachine.OpenSubKey(strPath, false);
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(strPath, false);
             string[] strKeys = { };
             if (key != null)
                 strKeys = key.GetValueNames();
@@ -127,7 +127,7 @@ namespace ShanDongPig.Common
         public static string[] GetRegNames(string strPath = "Software\\JGWClient")
         {
             string[] strNames = { };
-            RegistryKey keyCom = Registry.LocalMachine.OpenSubKey(strPath, false);
+            RegistryKey keyCom = Registry.CurrentUser.OpenSubKey(strPath, false);
             if (keyCom != null)
             {
                 strNames = keyCom.GetValueNames();
@@ -136,6 +136,25 @@ namespace ShanDongPig.Common
             }
 
             return strNames;
+        }
+        /// <summary>
+        /// 是否存在对应键值
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="strPath"></param>
+        /// <returns></returns>
+        public static bool IsExistName(string name, string strPath = "Software\\JGWClient")
+        {
+            RegistryKey keys = Registry.CurrentUser.OpenSubKey(strPath, false);
+            string[] strKeys = { };
+            if (keys != null)
+            {
+                if (keys.GetValueNames().Contains(name))
+                    return true;
+                else
+                    return false;
+            }
+            return false;
         }
         #endregion
 

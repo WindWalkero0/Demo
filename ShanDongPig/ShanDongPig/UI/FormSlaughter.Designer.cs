@@ -32,15 +32,15 @@
             this.Btn_Start = new DevExpress.XtraEditors.SimpleButton();
             this.GridControl_Slaughter = new DevExpress.XtraGrid.GridControl();
             this.GridView_Slaughter = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Number = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.BatchName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.EarNumber = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.CableTieCode = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.CodeSource = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.SlaughterTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.DeheadTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.AcidRemovalTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.UploadResult = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.GridControl_Slaughter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridView_Slaughter)).BeginInit();
             this.SuspendLayout();
@@ -66,7 +66,7 @@
             this.Btn_Start.AppearanceHovered.Options.UseBorderColor = true;
             this.Btn_Start.AppearanceHovered.Options.UseFont = true;
             this.Btn_Start.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.Btn_Start.Location = new System.Drawing.Point(753, 432);
+            this.Btn_Start.Location = new System.Drawing.Point(763, 431);
             this.Btn_Start.LookAndFeel.SkinName = "Visual Studio 2013 Blue";
             this.Btn_Start.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Start.Name = "Btn_Start";
@@ -86,151 +86,154 @@
             gridLevelNode1.RelationName = "Level1";
             this.GridControl_Slaughter.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
             gridLevelNode1});
-            this.GridControl_Slaughter.Location = new System.Drawing.Point(0, 0);
+            this.GridControl_Slaughter.Location = new System.Drawing.Point(63, 31);
             this.GridControl_Slaughter.MainView = this.GridView_Slaughter;
             this.GridControl_Slaughter.Name = "GridControl_Slaughter";
-            this.GridControl_Slaughter.Size = new System.Drawing.Size(916, 412);
+            this.GridControl_Slaughter.Size = new System.Drawing.Size(780, 381);
             this.GridControl_Slaughter.TabIndex = 1;
             this.GridControl_Slaughter.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GridView_Slaughter});
             // 
             // GridView_Slaughter
             // 
+            this.GridView_Slaughter.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.GridView_Slaughter.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.GridView_Slaughter.Appearance.Row.Options.UseTextOptions = true;
+            this.GridView_Slaughter.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.GridView_Slaughter.ColumnPanelRowHeight = 30;
             this.GridView_Slaughter.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5,
-            this.gridColumn6,
-            this.gridColumn7,
-            this.gridColumn8,
-            this.gridColumn9});
+            this.Number,
+            this.BatchName,
+            this.EarNumber,
+            this.CableTieCode,
+            this.CodeSource,
+            this.SlaughterTime,
+            this.DeheadTime,
+            this.AcidRemovalTime,
+            this.UploadResult});
             this.GridView_Slaughter.GridControl = this.GridControl_Slaughter;
             this.GridView_Slaughter.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
             this.GridView_Slaughter.Name = "GridView_Slaughter";
+            this.GridView_Slaughter.OptionsBehavior.Editable = false;
             this.GridView_Slaughter.OptionsCustomization.AllowColumnResizing = false;
+            this.GridView_Slaughter.OptionsCustomization.AllowFilter = false;
             this.GridView_Slaughter.OptionsCustomization.AllowSort = false;
+            this.GridView_Slaughter.OptionsMenu.EnableColumnMenu = false;
             this.GridView_Slaughter.OptionsView.ShowGroupPanel = false;
             this.GridView_Slaughter.OptionsView.ShowIndicator = false;
+            this.GridView_Slaughter.RowHeight = 30;
             this.GridView_Slaughter.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
             // 
-            // gridColumn1
+            // Number
             // 
-            this.gridColumn1.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.Caption = "序号";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.OptionsColumn.ReadOnly = true;
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
-            this.gridColumn1.Width = 49;
+            this.Number.AppearanceCell.Options.UseTextOptions = true;
+            this.Number.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.Number.AppearanceHeader.Options.UseTextOptions = true;
+            this.Number.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.Number.Caption = "序号";
+            this.Number.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.Number.Name = "Number";
+            this.Number.Visible = true;
+            this.Number.VisibleIndex = 0;
+            this.Number.Width = 49;
             // 
-            // gridColumn2
+            // BatchName
             // 
-            this.gridColumn2.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2.Caption = "进场批次";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.OptionsColumn.ReadOnly = true;
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
-            this.gridColumn2.Width = 63;
+            this.BatchName.AppearanceCell.Options.UseTextOptions = true;
+            this.BatchName.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.BatchName.AppearanceHeader.Options.UseTextOptions = true;
+            this.BatchName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.BatchName.Caption = "进场批次";
+            this.BatchName.Name = "BatchName";
+            this.BatchName.Visible = true;
+            this.BatchName.VisibleIndex = 1;
+            this.BatchName.Width = 63;
             // 
-            // gridColumn3
+            // EarNumber
             // 
-            this.gridColumn3.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn3.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn3.Caption = "耳标号";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.OptionsColumn.ReadOnly = true;
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
-            this.gridColumn3.Width = 62;
+            this.EarNumber.AppearanceCell.Options.UseTextOptions = true;
+            this.EarNumber.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.EarNumber.AppearanceHeader.Options.UseTextOptions = true;
+            this.EarNumber.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.EarNumber.Caption = "耳标号";
+            this.EarNumber.Name = "EarNumber";
+            this.EarNumber.Visible = true;
+            this.EarNumber.VisibleIndex = 2;
+            this.EarNumber.Width = 62;
             // 
-            // gridColumn4
+            // CableTieCode
             // 
-            this.gridColumn4.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn4.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn4.Caption = "扎带码";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.OptionsColumn.ReadOnly = true;
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            this.gridColumn4.Width = 63;
+            this.CableTieCode.AppearanceCell.Options.UseTextOptions = true;
+            this.CableTieCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.CableTieCode.AppearanceHeader.Options.UseTextOptions = true;
+            this.CableTieCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.CableTieCode.Caption = "扎带码";
+            this.CableTieCode.Name = "CableTieCode";
+            this.CableTieCode.Visible = true;
+            this.CableTieCode.VisibleIndex = 3;
+            this.CableTieCode.Width = 63;
             // 
-            // gridColumn5
+            // CodeSource
             // 
-            this.gridColumn5.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn5.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn5.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn5.Caption = "扎带码来源";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.OptionsColumn.ReadOnly = true;
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            this.gridColumn5.Width = 63;
+            this.CodeSource.AppearanceCell.Options.UseTextOptions = true;
+            this.CodeSource.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.CodeSource.AppearanceHeader.Options.UseTextOptions = true;
+            this.CodeSource.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.CodeSource.Caption = "扎带码来源";
+            this.CodeSource.Name = "CodeSource";
+            this.CodeSource.Visible = true;
+            this.CodeSource.VisibleIndex = 4;
+            this.CodeSource.Width = 63;
             // 
-            // gridColumn6
+            // SlaughterTime
             // 
-            this.gridColumn6.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn6.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn6.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn6.Caption = "屠宰时间";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.OptionsColumn.ReadOnly = true;
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
-            this.gridColumn6.Width = 63;
+            this.SlaughterTime.AppearanceCell.Options.UseTextOptions = true;
+            this.SlaughterTime.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.SlaughterTime.AppearanceHeader.Options.UseTextOptions = true;
+            this.SlaughterTime.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.SlaughterTime.Caption = "屠宰时间";
+            this.SlaughterTime.Name = "SlaughterTime";
+            this.SlaughterTime.Visible = true;
+            this.SlaughterTime.VisibleIndex = 5;
+            this.SlaughterTime.Width = 63;
             // 
-            // gridColumn7
+            // DeheadTime
             // 
-            this.gridColumn7.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn7.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn7.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn7.Caption = "去头时间";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.OptionsColumn.ReadOnly = true;
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 6;
-            this.gridColumn7.Width = 66;
+            this.DeheadTime.AppearanceCell.Options.UseTextOptions = true;
+            this.DeheadTime.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.DeheadTime.AppearanceHeader.Options.UseTextOptions = true;
+            this.DeheadTime.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.DeheadTime.Caption = "去头时间";
+            this.DeheadTime.Name = "DeheadTime";
+            this.DeheadTime.Visible = true;
+            this.DeheadTime.VisibleIndex = 6;
+            this.DeheadTime.Width = 66;
             // 
-            // gridColumn8
+            // AcidRemovalTime
             // 
-            this.gridColumn8.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn8.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn8.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn8.Caption = "排酸更新";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.OptionsColumn.ReadOnly = true;
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 7;
-            this.gridColumn8.Width = 85;
+            this.AcidRemovalTime.AppearanceCell.Options.UseTextOptions = true;
+            this.AcidRemovalTime.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.AcidRemovalTime.AppearanceHeader.Options.UseTextOptions = true;
+            this.AcidRemovalTime.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.AcidRemovalTime.Caption = "排酸更新";
+            this.AcidRemovalTime.DisplayFormat.FormatString = "\"yyyy/MM/dd HH:mm:ss.fff\"";
+            this.AcidRemovalTime.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.AcidRemovalTime.Name = "AcidRemovalTime";
+            this.AcidRemovalTime.Visible = true;
+            this.AcidRemovalTime.VisibleIndex = 7;
+            this.AcidRemovalTime.Width = 85;
             // 
-            // gridColumn9
+            // UploadResult
             // 
-            this.gridColumn9.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.Caption = "上传结果";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.OptionsColumn.ReadOnly = true;
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 8;
-            this.gridColumn9.Width = 115;
+            this.UploadResult.AppearanceCell.Options.UseTextOptions = true;
+            this.UploadResult.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.UploadResult.AppearanceHeader.Options.UseTextOptions = true;
+            this.UploadResult.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.UploadResult.Caption = "上传结果";
+            this.UploadResult.Name = "UploadResult";
+            this.UploadResult.Visible = true;
+            this.UploadResult.VisibleIndex = 8;
+            this.UploadResult.Width = 115;
             // 
             // FormSlaughter
             // 
@@ -254,14 +257,14 @@
         private DevExpress.XtraEditors.SimpleButton Btn_Start;
         private DevExpress.XtraGrid.GridControl GridControl_Slaughter;
         private DevExpress.XtraGrid.Views.Grid.GridView GridView_Slaughter;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn Number;
+        private DevExpress.XtraGrid.Columns.GridColumn BatchName;
+        private DevExpress.XtraGrid.Columns.GridColumn EarNumber;
+        private DevExpress.XtraGrid.Columns.GridColumn CableTieCode;
+        private DevExpress.XtraGrid.Columns.GridColumn CodeSource;
+        private DevExpress.XtraGrid.Columns.GridColumn SlaughterTime;
+        private DevExpress.XtraGrid.Columns.GridColumn DeheadTime;
+        private DevExpress.XtraGrid.Columns.GridColumn AcidRemovalTime;
+        private DevExpress.XtraGrid.Columns.GridColumn UploadResult;
     }
 }
