@@ -215,7 +215,7 @@
             this.AcidRemovalTime.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.AcidRemovalTime.AppearanceHeader.Options.UseTextOptions = true;
             this.AcidRemovalTime.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.AcidRemovalTime.Caption = "排酸更新";
+            this.AcidRemovalTime.Caption = "排酸时间";
             this.AcidRemovalTime.DisplayFormat.FormatString = "\"yyyy/MM/dd HH:mm:ss.fff\"";
             this.AcidRemovalTime.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.AcidRemovalTime.Name = "AcidRemovalTime";

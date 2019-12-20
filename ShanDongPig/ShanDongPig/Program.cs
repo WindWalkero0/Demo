@@ -1,4 +1,5 @@
-﻿using ShanDongPig.UI;
+﻿using ShanDongPig.Common;
+using ShanDongPig.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace ShanDongPig
         [STAThread]
         static void Main()
         {
+            GeneralData.ServiceUrl = GeneralData.GetConfigItem("ServiceUrl");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Login login = new Login();

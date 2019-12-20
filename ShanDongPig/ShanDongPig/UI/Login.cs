@@ -22,11 +22,13 @@ namespace ShanDongPig.UI
 
         private void Btn_Login_Click(object sender, EventArgs e)
         {
+            //HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/production-line/batchInfo");
+            //HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/production-line/statistics");
             //首先是要登录成功
             if (!Tools.IsExistName("machineID"))
             {
                 ResultEntity result = HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/separate/production-line/code-flag");
-                if(result.State == 200)
+                if (result.State == 200)
                 {
                     Tools.SetRegKey("machineID", result.Results);
                 }

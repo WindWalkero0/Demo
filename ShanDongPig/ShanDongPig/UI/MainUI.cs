@@ -108,5 +108,14 @@ namespace ShanDongPig.UI
                 form.Location = location;
             }
         }
+
+        private void MainUI_FormClosed(object sender, System.Windows.Forms.FormClosedEventArgs e)
+        {
+            try
+            {
+                Environment.Exit(1);
+            }
+            catch { }
+        }
     }
 }

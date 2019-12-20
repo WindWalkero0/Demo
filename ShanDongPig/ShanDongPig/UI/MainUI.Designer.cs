@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainUI));
             this.panelTitle = new DevExpress.XtraEditors.PanelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
@@ -52,7 +53,7 @@
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle.Location = new System.Drawing.Point(0, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1136, 100);
+            this.panelTitle.Size = new System.Drawing.Size(1158, 71);
             this.panelTitle.TabIndex = 0;
             // 
             // labelControl1
@@ -60,7 +61,7 @@
             this.labelControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelControl1.Appearance.Font = new System.Drawing.Font("宋体", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(367, 30);
+            this.labelControl1.Location = new System.Drawing.Point(378, 15);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(560, 35);
             this.labelControl1.TabIndex = 1;
@@ -69,11 +70,13 @@
             // pictureEdit1
             // 
             this.pictureEdit1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
             this.pictureEdit1.Location = new System.Drawing.Point(2, 2);
             this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.AllowFocused = false;
             this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(187, 96);
+            this.pictureEdit1.Size = new System.Drawing.Size(283, 67);
             this.pictureEdit1.TabIndex = 0;
             // 
             // panelSelectButton
@@ -84,9 +87,9 @@
             this.panelSelectButton.Controls.Add(this.Btn_Segmentation);
             this.panelSelectButton.Controls.Add(this.Btn_Slaughter);
             this.panelSelectButton.Controls.Add(this.Btn_Index);
-            this.panelSelectButton.Location = new System.Drawing.Point(2, 100);
+            this.panelSelectButton.Location = new System.Drawing.Point(2, 70);
             this.panelSelectButton.Name = "panelSelectButton";
-            this.panelSelectButton.Size = new System.Drawing.Size(1134, 82);
+            this.panelSelectButton.Size = new System.Drawing.Size(1156, 82);
             this.panelSelectButton.TabIndex = 1;
             // 
             // Btn_Setting
@@ -95,7 +98,7 @@
             this.Btn_Setting.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Setting.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Setting.Appearance.Options.UseFont = true;
-            this.Btn_Setting.Location = new System.Drawing.Point(850, 24);
+            this.Btn_Setting.Location = new System.Drawing.Point(861, 24);
             this.Btn_Setting.LookAndFeel.SkinName = "Office 2010 Blue";
             this.Btn_Setting.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Setting.Name = "Btn_Setting";
@@ -110,7 +113,7 @@
             this.Btn_Segmentation.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Segmentation.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Segmentation.Appearance.Options.UseFont = true;
-            this.Btn_Segmentation.Location = new System.Drawing.Point(619, 24);
+            this.Btn_Segmentation.Location = new System.Drawing.Point(630, 24);
             this.Btn_Segmentation.LookAndFeel.SkinName = "Office 2010 Blue";
             this.Btn_Segmentation.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Segmentation.Name = "Btn_Segmentation";
@@ -125,7 +128,7 @@
             this.Btn_Slaughter.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Btn_Slaughter.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Slaughter.Appearance.Options.UseFont = true;
-            this.Btn_Slaughter.Location = new System.Drawing.Point(388, 24);
+            this.Btn_Slaughter.Location = new System.Drawing.Point(399, 24);
             this.Btn_Slaughter.LookAndFeel.SkinName = "Office 2010 Blue";
             this.Btn_Slaughter.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Slaughter.Name = "Btn_Slaughter";
@@ -142,6 +145,7 @@
             this.Btn_Index.Appearance.BackColor2 = System.Drawing.Color.White;
             this.Btn_Index.Appearance.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Index.Appearance.Options.UseBackColor = true;
+            this.Btn_Index.Appearance.Options.UseFont = true;
             this.Btn_Index.AppearanceDisabled.BackColor = System.Drawing.Color.Red;
             this.Btn_Index.AppearanceDisabled.BackColor2 = System.Drawing.Color.Red;
             this.Btn_Index.AppearanceDisabled.Options.UseBackColor = true;
@@ -160,7 +164,7 @@
             this.Btn_Index.AppearancePressed.Options.UseBorderColor = true;
             this.Btn_Index.AppearancePressed.Options.UseFont = true;
             this.Btn_Index.AppearancePressed.Options.UseForeColor = true;
-            this.Btn_Index.Location = new System.Drawing.Point(157, 24);
+            this.Btn_Index.Location = new System.Drawing.Point(168, 24);
             this.Btn_Index.LookAndFeel.SkinName = "Office 2010 Blue";
             this.Btn_Index.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Index.Name = "Btn_Index";
@@ -174,9 +178,9 @@
             this.MainPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.MainPanel.Location = new System.Drawing.Point(2, 182);
+            this.MainPanel.Location = new System.Drawing.Point(2, 153);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1134, 405);
+            this.MainPanel.Size = new System.Drawing.Size(1156, 487);
             this.MainPanel.TabIndex = 5;
             this.MainPanel.SizeChanged += new System.EventHandler(this.MainPanel_SizeChanged);
             // 
@@ -184,14 +188,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1136, 587);
+            this.ClientSize = new System.Drawing.Size(1158, 641);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.panelSelectButton);
             this.Controls.Add(this.panelTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "山东省健康肉风控及溯源一体化平台";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainUI_FormClosed);
             this.Load += new System.EventHandler(this.MainUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelTitle)).EndInit();
             this.panelTitle.ResumeLayout(false);

@@ -98,7 +98,6 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.UI.FormIndex.re
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.UI.FormSlaughter.resources
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.UI.FormSegmentation.resources
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.UI.FormSetting.resources
-E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.exe.licenses
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\DevExpress.XtraGrid.v18.1.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\DevExpress.XtraGrid.v18.1.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
@@ -106,7 +105,6 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\es\DevExpress.XtraGrid.v18.
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zh-Hans\DevExpress.XtraGrid.v18.1.resources.dll
-E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.csprojAssemblyReference.cache
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.dll
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\Newtonsoft.Json.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.dll
@@ -118,3 +116,5 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\EntityFramework.SqlServer.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.dll.config
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.exe.licenses
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.csprojAssemblyReference.cache

@@ -29,8 +29,7 @@ namespace ShanDongPig.UI
         ConcurrentQueue<DataRow> displayQueue = new ConcurrentQueue<DataRow>();
         DataTable dt = new DataTable("屠宰");
         Stopwatch stop = new Stopwatch();
-
-        Thread th = null;
+        
         public FormSlaughter()
         {
             InitializeComponent();
@@ -39,7 +38,7 @@ namespace ShanDongPig.UI
             dt.Columns.Add("进场批次", typeof(string));
             dt.Columns.Add("耳标号", typeof(string));
             dt.Columns.Add("扎带码", typeof(string));
-            dt.Columns.Add("扎带码来源", typeof(int));
+            dt.Columns.Add("扎带码来源", typeof(string));
             dt.Columns.Add("屠宰时间", typeof(string));
             dt.Columns.Add("去头时间", typeof(string));
             dt.Columns.Add("排酸时间", typeof(string));
@@ -58,7 +57,21 @@ namespace ShanDongPig.UI
         private void Btn_Start_Click(object sender, EventArgs e)
         {
             stop.Restart();
-            DealSlaughter("");
+            for(int i = 1; i <= 1000; i++)
+            {
+                switch (i % 3)
+                {
+                    case 0:
+                        DealSlaughter("");
+                        break;
+                    case 1:
+                        DealDehead("");
+                        break;
+                    case 2:
+                        DealRemoveAcid("");
+                        break;
+                }
+            }
         }
         /// <summary>
         /// 屠宰
@@ -70,7 +83,7 @@ namespace ShanDongPig.UI
             dr[1] = "123456";
             dr[2] = "2";
             dr[3] = "东西";
-            dr[4] = OperateType.屠宰;
+            dr[4] = OperateType.屠宰.ToString();
             dr[5] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             SlaughterEntity slaughter = new SlaughterEntity
             {
@@ -78,7 +91,7 @@ namespace ShanDongPig.UI
                 identityNum = dr[2].ToString(),
                 ribbonCode = dr[3].ToString(),
                 excuteTime = dr[5].ToString(),
-                excuteType = Convert.ToInt32(dr[4])
+                excuteType = (int)OperateType.屠宰
             };
             slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
@@ -93,14 +106,14 @@ namespace ShanDongPig.UI
             dr[1] = "张三";
             dr[2] = "2";
             dr[3] = "东西";
-            dr[4] = OperateType.去头;
+            dr[4] = OperateType.去头.ToString();
             dr[6] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             SlaughterEntity slaughter = new SlaughterEntity
             {
                 butcherBatch = dr[1].ToString(),
                 ribbonCode = dr[3].ToString(),
                 excuteTime = dr[6].ToString(),
-                excuteType = Convert.ToInt32(dr[4])
+                excuteType = (int)OperateType.去头
             };
             slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
@@ -115,14 +128,14 @@ namespace ShanDongPig.UI
             dr[1] = "张三";
             dr[2] = "2";
             dr[3] = "东西";
-            dr[4] = OperateType.排酸;
+            dr[4] = OperateType.排酸.ToString();
             dr[7] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             SlaughterEntity slaughter = new SlaughterEntity
             {
                 butcherBatch = dr[1].ToString(),
                 ribbonCode = dr[3].ToString(),
                 excuteTime = dr[7].ToString(),
-                excuteType = Convert.ToInt32(dr[4])
+                excuteType = (int)OperateType.排酸
             };
             slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
@@ -162,7 +175,7 @@ namespace ShanDongPig.UI
                             Log.WriteHttpPost(stop.ElapsedMilliseconds.ToString(), "运行时间");
                         }
                     }
-                    Thread.Sleep(1);
+                    Thread.Sleep(1000);
                 }
                 catch (Exception ex) { Thread.Sleep(1); }
             }
