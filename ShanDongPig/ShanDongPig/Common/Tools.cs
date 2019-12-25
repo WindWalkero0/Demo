@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Threading;
 using System.Runtime.InteropServices;
 using DevExpress.XtraEditors;
+using ZXing.Common;
+using ZXing;
 
 namespace ShanDongPig.Common
 {
@@ -143,14 +144,18 @@ namespace ShanDongPig.Common
         /// <param name="name"></param>
         /// <param name="strPath"></param>
         /// <returns></returns>
-        public static bool IsExistName(string name, string strPath = "Software\\JGWClient")
+        public static bool IsExistName(string name, out object keyValue, string strPath = "Software\\JGWClient")
         {
+            keyValue = "";
             RegistryKey keys = Registry.CurrentUser.OpenSubKey(strPath, false);
             string[] strKeys = { };
             if (keys != null)
             {
                 if (keys.GetValueNames().Contains(name))
+                {
+                    keyValue = keys.GetValue(name);
                     return true;
+                }
                 else
                     return false;
             }
@@ -200,6 +205,31 @@ namespace ShanDongPig.Common
         {
             if (textEdit.Properties.NullValuePromptShowForEmptyValue)
                 textEdit.Properties.NullValuePrompt = string.Empty;
+        }
+        #endregion
+
+        #region 用于打印
+        public static Image GetQRCode(string code)
+        {
+            EncodingOptions encodeOption = new EncodingOptions();
+            encodeOption.Height = 10;
+            encodeOption.Width = 10;
+
+            BarcodeWriter bw = new BarcodeWriter();
+            bw.Options = encodeOption;
+            bw.Format = BarcodeFormat.QR_CODE;
+            Image img = bw.Write(code);
+            return img;
+        }
+        /// <summary>
+        /// 字符串转换成整型
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static int GetLocation(string str)
+        {
+            int temp = Convert.ToInt32(str);
+            return temp;
         }
         #endregion
 

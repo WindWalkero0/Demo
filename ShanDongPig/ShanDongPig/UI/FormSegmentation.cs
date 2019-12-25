@@ -15,6 +15,7 @@ namespace ShanDongPig.UI
 {
     public partial class FormSegmentation : DevExpress.XtraEditors.XtraForm
     {
+        string segmentationCode = string.Empty;
         public FormSegmentation()
         {
             InitializeComponent();
@@ -30,6 +31,29 @@ namespace ShanDongPig.UI
                 separateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
             };
             InterfaceServices.UploadSegmentation(segmentation, out string error);
+        }
+
+        private void DealPrint(string data)
+        {
+
+        }
+
+        private void PrinterDoc_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            try
+            {
+                //箱码
+                e.Graphics.DrawString(segmentationCode, new Font("黑体", Tools.GetLocation(GeneralData.GetConfigItem("CodeSize")), FontStyle.Bold),
+             new SolidBrush(Color.Black), new Point(Tools.GetLocation(GeneralData.GetConfigItem("CodeX")), Tools.GetLocation(GeneralData.GetConfigItem("CodeY"))));
+                //箱码二维码
+                Image qr = Tools.GetQRCode(segmentationCode);
+                e.Graphics.DrawImage(qr, Tools.GetLocation(GeneralData.GetConfigItem("QRCodeX")), Tools.GetLocation(GeneralData.GetConfigItem("QRCodeY")),
+                    Tools.GetLocation(GeneralData.GetConfigItem("QRCodeSize")), Tools.GetLocation(GeneralData.GetConfigItem("QRCodeSize")));
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
     }
 }

@@ -18,19 +18,24 @@ namespace ShanDongPig.UI
         public Login()
         {
             InitializeComponent();
+            GeneralData.LoginName = GeneralData.GetConfigItem("LoginName");
+            byte[] bPwd = Convert.FromBase64String(GeneralData.GetConfigItem("Password"));
+            GeneralData.Password = Encoding.Default.GetString(bPwd);
+            GeneralData.ServiceUrl = string.IsNullOrWhiteSpace(GeneralData.GetConfigItem("SericeUrl")) ?
+                "http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/" : GeneralData.GetConfigItem("SericeUrl");
         }
 
         private void Btn_Login_Click(object sender, EventArgs e)
         {
-            //HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/production-line/batchInfo");
             //HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/production-line/statistics");
             //首先是要登录成功
-            if (!Tools.IsExistName("machineID"))
+            if (!Tools.IsExistName("machineID", out GeneralData.KeyValue))
             {
-                ResultEntity result = HttpUtil.HttpGet("http://192.168.20.64:7790/hydra-shandong-pingan-pig-batcher/api/v1/separate/production-line/code-flag");
+                ResultEntity result = HttpUtil.HttpGet(GeneralData.ServiceUrl + "separate/production-line/code-flag");
                 if (result.State == 200)
                 {
                     Tools.SetRegKey("machineID", result.Results);
+                    GeneralData.KeyValue = result.Results;
                 }
                 else
                 {

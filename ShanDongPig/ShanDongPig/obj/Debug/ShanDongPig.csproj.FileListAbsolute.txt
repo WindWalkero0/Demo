@@ -118,3 +118,12 @@ E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.xml
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\System.Data.SQLite.dll.config
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.exe.licenses
 E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\obj\Debug\ShanDongPig.csprojAssemblyReference.cache
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.presentation.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.pdb
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.presentation.pdb
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\zxing.presentation.xml
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\FluentScheduler.dll
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\FluentScheduler.pdb
+E:\常用DEMO\Demo\ShanDongPig\ShanDongPig\bin\Debug\FluentScheduler.xml

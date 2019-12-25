@@ -66,7 +66,7 @@
             this.Btn_Start.AppearanceHovered.Options.UseBorderColor = true;
             this.Btn_Start.AppearanceHovered.Options.UseFont = true;
             this.Btn_Start.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.Btn_Start.Location = new System.Drawing.Point(763, 431);
+            this.Btn_Start.Location = new System.Drawing.Point(720, 455);
             this.Btn_Start.LookAndFeel.SkinName = "Visual Studio 2013 Blue";
             this.Btn_Start.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Btn_Start.Name = "Btn_Start";
@@ -89,7 +89,7 @@
             this.GridControl_Slaughter.Location = new System.Drawing.Point(63, 31);
             this.GridControl_Slaughter.MainView = this.GridView_Slaughter;
             this.GridControl_Slaughter.Name = "GridControl_Slaughter";
-            this.GridControl_Slaughter.Size = new System.Drawing.Size(780, 381);
+            this.GridControl_Slaughter.Size = new System.Drawing.Size(737, 405);
             this.GridControl_Slaughter.TabIndex = 1;
             this.GridControl_Slaughter.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GridView_Slaughter});
@@ -115,7 +115,6 @@
             this.GridView_Slaughter.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
             this.GridView_Slaughter.Name = "GridView_Slaughter";
             this.GridView_Slaughter.OptionsBehavior.Editable = false;
-            this.GridView_Slaughter.OptionsCustomization.AllowColumnResizing = false;
             this.GridView_Slaughter.OptionsCustomization.AllowFilter = false;
             this.GridView_Slaughter.OptionsCustomization.AllowSort = false;
             this.GridView_Slaughter.OptionsMenu.EnableColumnMenu = false;
@@ -237,9 +236,9 @@
             // 
             // FormSlaughter
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(915, 493);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(872, 517);
             this.Controls.Add(this.GridControl_Slaughter);
             this.Controls.Add(this.Btn_Start);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

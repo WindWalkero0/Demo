@@ -29,11 +29,11 @@ namespace ShanDongPig.UI
         ConcurrentQueue<DataRow> displayQueue = new ConcurrentQueue<DataRow>();
         DataTable dt = new DataTable("屠宰");
         Stopwatch stop = new Stopwatch();
-        
+
         public FormSlaughter()
         {
             InitializeComponent();
-            
+
             dt.Columns.Add("序号", typeof(int));
             dt.Columns.Add("进场批次", typeof(string));
             dt.Columns.Add("耳标号", typeof(string));
@@ -57,7 +57,7 @@ namespace ShanDongPig.UI
         private void Btn_Start_Click(object sender, EventArgs e)
         {
             stop.Restart();
-            for(int i = 1; i <= 1000; i++)
+            for (int i = 1; i <= 100; i++)
             {
                 switch (i % 3)
                 {
@@ -85,6 +85,7 @@ namespace ShanDongPig.UI
             dr[3] = "东西";
             dr[4] = OperateType.屠宰.ToString();
             dr[5] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            dr[8] = "待上传";
             SlaughterEntity slaughter = new SlaughterEntity
             {
                 butcherBatch = dr[1].ToString(),
@@ -93,8 +94,8 @@ namespace ShanDongPig.UI
                 excuteTime = dr[5].ToString(),
                 excuteType = (int)OperateType.屠宰
             };
-            slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
+            slaughterQueue.Enqueue(slaughter);
         }
         /// <summary>
         /// 去头
@@ -108,15 +109,17 @@ namespace ShanDongPig.UI
             dr[3] = "东西";
             dr[4] = OperateType.去头.ToString();
             dr[6] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            dr[8] = "待上传";
             SlaughterEntity slaughter = new SlaughterEntity
             {
                 butcherBatch = dr[1].ToString(),
+                identityNum = dr[2].ToString(),
                 ribbonCode = dr[3].ToString(),
                 excuteTime = dr[6].ToString(),
                 excuteType = (int)OperateType.去头
             };
-            slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
+            slaughterQueue.Enqueue(slaughter);
         }
         /// <summary>
         /// 排酸
@@ -130,15 +133,17 @@ namespace ShanDongPig.UI
             dr[3] = "东西";
             dr[4] = OperateType.排酸.ToString();
             dr[7] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            dr[8] = "待上传";
             SlaughterEntity slaughter = new SlaughterEntity
             {
                 butcherBatch = dr[1].ToString(),
+                identityNum = dr[2].ToString(),
                 ribbonCode = dr[3].ToString(),
                 excuteTime = dr[7].ToString(),
                 excuteType = (int)OperateType.排酸
             };
-            slaughterQueue.Enqueue(slaughter);
             displayQueue.Enqueue(dr);
+            slaughterQueue.Enqueue(slaughter);
         }
 
         #region 动态显示数据
@@ -175,7 +180,7 @@ namespace ShanDongPig.UI
                             Log.WriteHttpPost(stop.ElapsedMilliseconds.ToString(), "运行时间");
                         }
                     }
-                    Thread.Sleep(1000);
+                    Thread.Sleep(1);
                 }
                 catch (Exception ex) { Thread.Sleep(1); }
             }
@@ -187,7 +192,7 @@ namespace ShanDongPig.UI
 
         private void StartUpload()
         {
-            if(tUploadData == null)
+            if (tUploadData == null)
             {
                 tUploadData = new JGWThread(UploadData);
                 tUploadData.Run();
@@ -197,7 +202,7 @@ namespace ShanDongPig.UI
 
         void UploadData()
         {
-            while(!tUploadData.CloseFlag)
+            while (!tUploadData.CloseFlag)
             {
                 try
                 {
@@ -206,10 +211,32 @@ namespace ShanDongPig.UI
                         if (slaughterQueue.TryDequeue(out SlaughterEntity slaughterEntity))
                         {
                             ResultType result = InterfaceServices.UploadSlaughterInfo(slaughterEntity, out string error);
+                            DataRow[] dr;
+                            do
+                            {
+                                dr = dt.Select($"进场批次 = '{slaughterEntity.butcherBatch}' " +
+                                      $"and 扎带码来源 = '{Enum.GetName(typeof(OperateType), slaughterEntity.excuteType)}' " +
+                                      $"and 扎带码 = '{slaughterEntity.ribbonCode}'", "序号 DESC");
+                            } while (dr.Count() == 0);
+                            this.Invoke((EventHandler)delegate
+                                {
+                                    dr[0]["上传结果"] = result;
+                                });
+                            //DataRow[] dr = dt.Select($"进场批次 = '{slaughterEntity.butcherBatch}' " +
+                            //        $"and 扎带码来源 = '{Enum.GetName(typeof(OperateType), slaughterEntity.excuteType)}' " +
+                            //        $"and 扎带码 = '{slaughterEntity.ribbonCode}'", "序号 DESC");
+                            //if(dr.Count() != 0)
+                            //{
+                            //    this.Invoke((EventHandler)delegate
+                            //    {
+                            //        dr[0]["上传结果"] = result;
+                            //    });
+                            //}
                         }
                     }
+                    Thread.Sleep(1);
                 }
-                catch(Exception ex) { }
+                catch (Exception ex) { }
             }
         }
         #endregion
