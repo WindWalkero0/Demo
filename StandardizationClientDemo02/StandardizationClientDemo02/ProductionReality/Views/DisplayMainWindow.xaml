@@ -1,0 +1,49 @@
+﻿<Window x:Class="StandardizationClientDemo02.ProductionReality.Views.DisplayMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StandardizationClientDemo02.ProductionReality.Views"
+        mc:Ignorable="d"
+        Title="DisplayMainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ProductionReality/ResourceDictionaries/ListViewItemStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <!--计数-->
+        <Viewbox>
+            <StackPanel Background="LightGray" Margin="0,0,0,390">
+                <TextBlock Margin="25,5,725,0" Text="计数：" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="lb_BoxCount" Text="1200" Margin="422,-25,298,0" RenderTransformOrigin="0.486,-0.591" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="18" Width="41"/>
+                <TextBlock x:Name="lb_EliminateCount" Text="50" Margin="234,-25,464,0" RenderTransformOrigin="0.486,-0.591" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="Red" FontSize="18" Width="94"/>
+                <TextBlock x:Name="lb_UnitCount" Text="12000" Margin="143,-25,584,0" RenderTransformOrigin="0.486,-0.591" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="18" Width="41"/>
+                <TextBlock x:Name="lb_ContainerCount" Text="120" Margin="660,-22,91,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="18" Width="41"/>
+            </StackPanel>
+        </Viewbox>
+        <!--读码-->
+        <Viewbox Stretch="Fill" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <StackPanel Height="30" Margin="0,35,0,355" >
+                <TextBlock Height="20" Margin="15,5,725,0" Text="读码" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Text="(规格)" Height="25" Margin="74,-20,659,348" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Height="22" Text="100" Margin="200,-725,510,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <TextBlock Height="22" Text="10" Margin="430,-725,310,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <TextBlock Height="22" Text="1" Margin="635, -725,75,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </StackPanel>
+        </Viewbox>
+        <!--读码显示-->
+        <ListView x:Name="lstView" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" ItemContainerStyle="{StaticResource ResourceKey=ListViewItemStyle}" SizeChanged="lstView_SizeChanged" Margin="0,0,0,164" Height="183">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="序号" DisplayMemberBinding="{Binding Number}"/>
+                    <GridViewColumn Header="一级码" DisplayMemberBinding="{Binding FirstCode}"/>
+                    <GridViewColumn Header="二级码" DisplayMemberBinding="{Binding SecondCode}"/>
+                    <GridViewColumn Header="三级码" DisplayMemberBinding="{Binding ThirdCode}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+﻿<Window x:Class="StandardizationClientDemo02.Login.Views.LoginMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:s="clr-namespace:StandardizationClientDemo02.Login.Views.UserControls"
+        mc:Ignorable="d"
+        Title="系统登录" Height="1024" Width="1280" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" FontSize="14" FontFamily="Microsoft YaHei">
+    <Grid Width="1280" Height="1024">
+        <Grid Margin="780,195,131,677" RenderTransformOrigin="0.835,0.612">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Login/Images/logo.png"/>
+            </Grid.Background>
+        </Grid>
+        <!--文本框添加透明提示-->
+        <TextBox x:Name="txtUserID" MaxLines="1" HorizontalAlignment="Left" Height="47" Margin="780,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" FontSize="30" FontFamily="Microsoft YaHei" RenderTransformOrigin="0.241,-0.662" TabIndex="0">
+            <TextBox.Resources>
+                <VisualBrush x:Key="HelpBrush" TileMode="None" Opacity="0.3" Stretch="None" AlignmentX="Left">
+                    <VisualBrush.Visual>
+                        <TextBlock FontStyle="Italic" Text="用户名"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </TextBox.Resources>
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <s:SecurePasswordBox FontSize="30" Height="47" MaxLines="1" Width="386" Text="{Binding user.password,Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" s:SecurePasswordBox.RealText="{Binding user.password, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="780,454,114,523" TabIndex="1" RenderTransformOrigin="0.427,-4.511">
+            <s:SecurePasswordBox.Resources>
+                <VisualBrush x:Key="HelpBrush" TileMode="None" Opacity="0.3" Stretch="None" AlignmentX="Left">
+                    <VisualBrush.Visual>
+                        <TextBlock FontStyle="Italic" Text="密码"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </s:SecurePasswordBox.Resources>
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </s:SecurePasswordBox>
+        <Grid Margin="51,110,598,135">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Login/Images/Interface.png"/>
+            </Grid.Background>
+        </Grid>
+        <CheckBox x:Name="chk_Remember" Margin="818,540,10,464" VerticalAlignment="Center" FontSize="15" Foreground="Gray">记住账号</CheckBox>
+        <CheckBox x:Name="chk_Offline" Margin="991,540,10,464" VerticalAlignment="Center" FontSize="15" Foreground="Gray">离线</CheckBox>
+        <Button Margin="780,582,105,378" FontSize="30" Foreground="GhostWhite" Command="{Binding LoginCommand}" Content="登录">
+            <Button.Template >
+                <ControlTemplate TargetType="{x:Type Button}" >
+                    <Border BorderBrush="{TemplateBinding Control.BorderBrush}" BorderThickness="1" CornerRadius="30,30,30,30">
+                        <Border.Background>CornflowerBlue</Border.Background>
+                        <ContentPresenter Content="{TemplateBinding ContentControl.Content}" HorizontalAlignment="Center" VerticalAlignment="Center" ></ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>

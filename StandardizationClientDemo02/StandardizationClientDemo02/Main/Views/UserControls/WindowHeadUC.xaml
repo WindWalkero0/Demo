@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="StandardizationClientDemo02.Main.Views.UserControls.WindowHeadUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StandardizationClientDemo02.Main.Views.UserControls"
+             Height="70" Width="1280" Background="White">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Main/ResourceDictionaries/ImageBrushResourceDictionary.xaml"/>
+                <ResourceDictionary Source="/Main/ResourceDictionaries/ButtonResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Storyboard x:Key="DownStoryboard">
+                <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="toolGrid">
+                    <EasingThicknessKeyFrame KeyTime="0" Value="0"/>
+                    <EasingThicknessKeyFrame KeyTime="0:0:0.5" Value="0,30,0,0"/>
+                </ThicknessAnimationUsingKeyFrames>
+            </Storyboard>
+            <Storyboard x:Key="UpStoryboard">
+                <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="toolGrid">
+                    <EasingThicknessKeyFrame KeyTime="0" Value="0,30,0,0"/>
+                    <EasingThicknessKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                </ThicknessAnimationUsingKeyFrames>
+            </Storyboard>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Height="70" Width="1280" Grid.Column="0">
+        <Grid VerticalAlignment="Top" Height="70" HorizontalAlignment="Right" Width="1280">
+            <Label Background="{StaticResource LOGO}" Margin="90,0,720,0" />
+            <Button Background="{StaticResource 帮助}" Tag="帮助" Style="{StaticResource ButtonStyle_Title}" HorizontalAlignment="Left" Margin="10"/>
+
+            <Grid HorizontalAlignment="Right" Width="150" VerticalAlignment="Bottom" Margin="0,0,30,0" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Background="{StaticResource 提醒}" Tag="消息通知" ToolTip="消息通知" Grid.Column="0" Style="{StaticResource ButtonStyle_Title}"/>
+                <Button Background="{StaticResource 账户}" Tag="账号" ToolTip="账号" Grid.Column="1" Style="{StaticResource ButtonStyle_Title}"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

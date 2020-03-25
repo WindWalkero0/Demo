@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="StandardizationClientDemo02.Main.Views.UserControls.ProductionHistory"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StandardizationClientDemo02.Main.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Main/ResourceDictionaries/ButtonResourceDictionary.xaml"/>
+                <ResourceDictionary Source="/Main/ResourceDictionaries/TextBoxResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Viewbox Stretch="Fill">
+        <Grid Height="1024" Width="1280" Background="WhiteSmoke">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="生产历史" Foreground="SkyBlue" Margin="22,36,1150,33" FontSize="20"/>
+            <TextBox Style="{StaticResource txtBoxStyle}" Grid.Row="0" Margin="168,30,711,20" FontSize="18"/>
+            <DatePicker x:Name="startSearchTime" Margin="592,36,488,25" VerticalContentAlignment="Center" Width="200"/>
+            <Line X1="1" Y1="1" X2="20" Y2="1" Stroke="Black" StrokeThickness="8" Margin="797,0,460,20" Height="24" VerticalAlignment="Bottom"/>
+            <DatePicker x:Name="endSearchTime" Margin="827,36,253,25" VerticalContentAlignment="Center" Width="200"/>
+            <Button x:Name="btnLookup" Style="{StaticResource ButtonCommonStyle}" Margin="1053,38,144,25" Content="查询"/>
+            <Button x:Name="btnLeadingOut" Style="{StaticResource ButtonCommonStyle}" Margin="1163,38,34,25" Content="导出"/>
+        </Grid>
+    </Viewbox>
+</UserControl>

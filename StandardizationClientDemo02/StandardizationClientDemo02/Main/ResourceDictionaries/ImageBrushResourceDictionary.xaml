@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:StandardizationClientDemo02.Main.ResourceDictionaries">
+    <ImageBrush x:Key="提醒" ImageSource="/Main/Images/tip.png" Stretch="Uniform"/>
+    <ImageBrush x:Key="账户" ImageSource="/Main/Images/user.PNG" Stretch="Uniform"/>
+    <ImageBrush x:Key="帮助" ImageSource="/Main/Images/help.png" Stretch="Uniform"/>
+    <ImageBrush x:Key="LOGO" ImageSource="/Main/Images/logo.PNG" Stretch="Uniform"/>
+</ResourceDictionary>
